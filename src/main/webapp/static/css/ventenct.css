@@ -1,0 +1,18 @@
+#mobilenumber{
+	margin-top:5px
+}
+
+#search{
+	margin-left:20px
+}
+
+#tbody{
+	display:none
+}
+
+.text-r{text-align:right}
+.btn {border-radius:4px;margin:0 10px 20px 0}
+
+ th{
+/*  	text-align:center; */
+ }

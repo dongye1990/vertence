@@ -1,0 +1,80 @@
+/**
+ * 
+ */
+package com.vertence.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.BeanPropertyRowMapper;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Service;
+
+import com.vertence.model.News;
+
+/** 
+ * @ClassName: NewsService 
+ * @author dongye
+ * @date 2017年9月2日 下午12:42:31  
+ */
+@Service
+public class NewsService {
+	
+	@Autowired
+	private JdbcTemplate jdbcTemplate;
+	
+	public List<News> listAll(){
+		String sql="select * from news ";
+		List<News> newsList= jdbcTemplate.query(sql, new Object[]{},new BeanPropertyRowMapper<News>(News.class));
+		return newsList;
+	}
+	
+	public List<News> listNews(String type){
+		String sql="select * from news  where status!=0 and type="+type;
+		sql+=" order by createTime desc,status desc limit 4";
+		System.out.println(sql.toString());
+		List<News> newsList= jdbcTemplate.query(sql, new Object[]{},new BeanPropertyRowMapper<News>(News.class));
+		return newsList;
+	}
+	
+	public News selectByPrimaryKey(int id){
+		String sql="select * from news where id="+id;
+		System.out.println(sql);
+		News news= jdbcTemplate.query(sql, new Object[]{},new BeanPropertyRowMapper<News>(News.class)).get(0);
+		String updateCountSql="update news set count=count+1 where id="+id;
+		jdbcTemplate.update(updateCountSql);
+		return news;
+	}
+	public int insertOrUpdate(News news){
+		String sql;
+		if(news.getId()==null){
+			sql="insert INTO news VALUE(null,"+news.getType()+",'"+news.getTitle()+"','"+
+		news.getContent()+"',"+news.getStatus()+",sysdate(),sysdate(),0)";
+		}else if(news.getStatus()==0){
+			sql="delete from news where id="+news.getId();
+		}else{
+			sql="update news set type="+news.getType()+",title='"+news.getTitle()+"',status="+
+		news.getStatus()+",content='"+news.getContent()+"' where id="+news.getId();
+		}
+		System.out.println(sql);
+		return jdbcTemplate.update(sql);
+	}
+	public int del(Integer id){
+		String sql="delete from news where id="+id;
+		return jdbcTemplate.update(sql);
+	}
+
+	public List<News> listNews(String language, Integer page) {
+		String sql="select * from news where status!=0 and type="+language;
+		sql+=(" order by status desc,createTime desc limit "+(page==null?0:page*10)+",10");
+		System.out.println(sql);
+		List<News> newsList= jdbcTemplate.query(sql, new Object[]{},new BeanPropertyRowMapper<News>(News.class));
+		return newsList;
+	}
+	public int countNews(String language) {
+		String sql="select * from news where status!=0 and type="+language;
+		return jdbcTemplate.queryForList(sql).size();
+	}
+
+
+}

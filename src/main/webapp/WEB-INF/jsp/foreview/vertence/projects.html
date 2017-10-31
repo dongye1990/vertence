@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../../../../static/css/index.css">
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBzE9xAESye6Kde-3hT-6B90nfwUkcS8Yw&sensor=false"></script>
+<script type="text/javascript"  src="../../../../static/js/googlemaps.js"></script>
+<script type="text/javascript"  src="../../../../static/js/jquery.min.js"></script>
+<style>
+  .nav-left {
+  background-color: #003e74;
+  padding: 15px 0 20px;
+  height:620px;
+  width: 260px;
+}
+  .nav-left li {
+    height: 28px;
+    line-height: 28px;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 10px;
+    cursor: pointer;
+    background: url(../../../../static/images/vt_2017091001.png) no-repeat 10px 6px;
+    padding-left: 30px;
+  }
+  .nav-left li:hover {
+    background-color: #003e74;
+    color: #fff;
+  }
+  .nleft-title {
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    height: 45px;
+    line-height: 33px;
+    border-bottom: 1px solid #fff;
+    width: 260px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  .l-mark {
+    width: 290px;
+  }
+  .l-mark h4 {
+    color: #003e74;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+  .l-detail a {
+  color: #003e74;
+  }
+  .l-content {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 8px;
+  }
+</style>
+</head>
+
+<body>
+<div class="container clearfix">
+<ul class="nav-left fl">
+  <span class="nleft-title">Select a Client Market</span>
+  <li class="left-active">Abidjan-Cote_D'ivoire_Biogas</li>
+  <li>Abidjan-Cote_Solar_Pump</li>
+  <li>Anhui_PV Project</li>
+  <li>Jiangsu_PV Project</li>
+  <li>Nanjing_Biogas_Power_Plant</li>
+  <li>Nanjing_Intelligent_Greenhouse</li>
+  <li>Nigeria_Solar_Pump</li>
+  <li>ningxia_PV Project</li>
+  <li>qinghai_PV Project</li>
+  <li>Shandong_PV Project</li>
+  <li>Shandong-Biogas</li>
+  <li>Sudan_Pressure_Vessel</li>
+  <li>Sudan_PV Project</li>
+  <li>Sudan_Solar Pump</li>
+  <li>Sudan_Water_Treatment</li>
+</ul>
+<div class="fl left-map" id="googleMap" style="width: 940px;height:620px;"></div>
+</div>
+</body>
+</html>
