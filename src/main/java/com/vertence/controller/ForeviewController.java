@@ -18,8 +18,11 @@ import com.vertence.model.News;
 import com.vertence.service.AttachmentService;
 import com.vertence.service.DetailService;
 import com.vertence.service.NewsService;
+import com.vertence.service.SearchService;
 import com.vertence.util.MailUtil;
+import com.vertence.util.Utils;
 import com.vertence.vo.MailInfo;
+import com.vertence.vo.SearchVo;
 
 
 /**
@@ -35,6 +38,8 @@ public class ForeviewController {
 	private DetailService detailService;
 	@Autowired
 	private AttachmentService attachmentService;
+	@Autowired
+	private SearchService searchService;
 	
 	@RequestMapping(value = "/")
 	public String index(Model model) {
@@ -108,9 +113,23 @@ public class ForeviewController {
 		return "/foreview/product/products";
 	}
 	@RequestMapping(value = "/search")
-	public String search(Model model,Integer type) {
-		model.addAttribute("type", type);
+	public String search(Model model,String text) {
+		List<SearchVo> searchVoList=searchService.searchByParm(text);
+		for (SearchVo vo:searchVoList) {
+			vo.setTitle(vo.getTitle().replaceAll(text, "<span style='color:red'>"+text+"</span>"));
+			vo.setContent(Utils.delHTMLTag(vo.getContent()).replaceAll(text, "<span style='color:red'>"+text+"</span>"));
+		}
+		model.addAttribute("searchVoList", searchVoList);
 		return "/foreview/search/search";
+	}
+	@RequestMapping(value = "/searchDetail")
+	public String searchDetail(Model model,String id) {
+		model.addAttribute("id", id);
+		if(id.length()>15){
+			return "forward:/detail"; 
+		}else{
+			return "forward:/newsdetail"; 
+		}
 	}
 	@RequestMapping(value = "/detail")
 	public String detail(Model model,String id) {

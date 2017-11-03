@@ -14,7 +14,9 @@ $(function() {
         $('#hd_search').css({'opacity':'0.7'});
     });
     $('#hd_img').click(function() {
-    	window.open("search");    
+    	if($('#hd_search').val()=='')
+    		return;
+    	window.open("search?text="+$('#hd_search').val());    
     });
     $('.hd_right').on('mouseleave',function() {
         if($('#hd_search').val() == '') {

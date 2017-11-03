@@ -10,72 +10,26 @@
 <body style="min-width:1200px;">
    <%@include file="../head.jsp" %>
      <div class="result-content">
-       <div class="container">
+       <div class="container n-container">
            <div class="result-content-title clearfix">
-               <span>您搜索的<span class="fc-blue">“通知公告”</span>结果如下</span>
-               <span class="fr">共计50条</span>
+               <span>Your search results are as follows</span>
+               <span class="fr"><span class="fc-blue">50</span> results</span>
            </div>
-
-           <div class="news-item">
-               <a href="service-details.html">
-                   <div class="rc-title">相聚是缘—你我共迎精彩2017—地科院2017年新年联欢活动侧记</div>
-                   <div data-length="136" class="rc-content xzl fm-song fs-12 fc-999">为凝情聚力，地科院于2016年12月30日举办了2017年新年联欢活动，师生全体近80人参加了此次活动。活动以“相聚是缘，你我共赢精彩2017”为主题，突出家的温暖。师生们自排自演了精彩纷呈、幽默温情的节目。现场欢乐温馨，笑声不断。为凝情聚力，地科院于2016年12月30日举办了2017年新年联欢活动，师生全体近80人参加了此次活动。活动以“相聚是缘，你我共赢精彩2017”为主题，突出家的温暖。师生们自排自演了精彩纷呈、幽默温情的节目。现场欢乐温馨，笑声不断。
-                   </div>
-               </a>
-               <div class="mlrf mlrf-date">
-                   <img src="static/images/2016110103.png">
-                   <span class="fs-font">2017-01-20</span>
-               </div>
-           </div>
-
-           <div class="news-item">
-               <a href="service-details.html">
-                   <div class="rc-title">相聚是缘—你我共迎精彩2017—地科院2017年新年联</div>
-                   <div data-length="136" class="rc-content xzl fm-song fs-12 fc-999">为凝情聚力，地科院于2016年12月30日举办了2017年新年联欢活动，师生全体近80人参加了此次活动。活动以“相聚是缘，你我共赢精彩2017”为主题，突出家的温暖。师生们自排自演了精彩纷呈、幽默温情的节目。现场欢乐温馨，笑声不断。为凝情聚力，地科院于2016年12月30日举办了2017年新年联欢活动，师生全体近80人参加了此次活动。活动以“相聚是缘，你我共赢精彩2017”为主题，突出家的温暖。师生们自排自演了精彩纷呈、幽默温情的节目。现场欢乐温馨，笑声不断。
-                   </div>
-               </a>
-               <div class="mlrf mlrf-date">
-                   <img src="images/2016110103.png">
-                   <span class="fs-font">2017-01-20</span>
-               </div>
-           </div>
-
-           <div class="news-item">
-               <a href="service-details.html">
-                   <div class="rc-title">相聚是缘—你我共迎精彩2017—地科院2017年新年联欢活动侧记相聚是缘</div>
-                   <div data-length="136" class="rc-content xzl fm-song fs-12 fc-999">为凝情聚力，地科院于2016年12月30日举办了2017年新年联欢活动，师生全体近80人参加了此次活动。活动以“相聚是缘，你我共赢精彩2017”为主题，突出家的温暖。师生们自排自演了精彩纷呈、幽默温情的节目。现场欢乐温馨，笑声不断。为凝情聚力，地科院于2016年12月30日举办了2017年新年联欢活动，师生全体近80人参加了此次活动。活动以“相聚是缘，你我共赢精彩2017”为主题，突出家的温暖。师生们自排自演了精彩纷呈、幽默温情的节目。现场欢乐温馨，笑声不断。
-                   </div>
-               </a>
-               <div class="mlrf mlrf-date">
-                   <img src="images/2016110103.png">
-                   <span class="fs-font">2017-01-20</span>
-               </div>
-           </div>
-
-           <div class="news-item">
-               <a href="service-details.html">
-                   <div class="rc-title">相聚是缘—你我共迎精彩2017—地科院2017年新年联欢活动侧记</div>
-                   <div data-length="136" class="rc-content xzl fm-song fs-12 fc-999">为凝情聚力，地科院于2016年12月30日举办了2017年新年联欢活动，师生全体近80人参加了此次活动。活动以“相聚是缘，你我共赢精彩2017”为主题，突出家的温暖。师生们自排自演了精彩纷呈、幽默温情的节目。现场欢乐温馨，笑声不断。为凝情聚力，地科院于2016年12月30日举办了2017年新年联欢活动，师生全体近80人参加了此次活动。活动以“相聚是缘，你我共赢精彩2017”为主题，突出家的温暖。师生们自排自演了精彩纷呈、幽默温情的节目。现场欢乐温馨，笑声不断。
-                   </div>
-               </a>
-               <div class="mlrf mlrf-date">
-                   <img src="images/2016110103.png">
-                   <span class="fs-font">2017-01-20</span>
-               </div>
-           </div>
-
-           <div class="news-item">
-               <a href="service-details.html">
-                   <div class="rc-title">相聚是缘—你我共迎精彩2017—地科院2017年新年联欢活动侧记</div>
-                   <div data-length="136" class="rc-content xzl fm-song fs-12 fc-999">为凝情聚力，地科院于2016年12月30日举办了2017年新年联欢活动，师生全体近80人参加了此次活动。活动以“相聚是缘，你我共赢精彩2017”为主题，突出家的温暖。师生们自排自演了精彩纷呈、幽默温情的节目。现场欢乐温馨，笑声不断。为凝情聚力，地科院于2016年12月30日举办了2017年新年联欢活动，师生全体近80人参加了此次活动。活动以“相聚是缘，你我共赢精彩2017”为主题，突出家的温暖。师生们自排自演了精彩纷呈、幽默温情的节目。现场欢乐温馨，笑声不断。
-                   </div>
-               </a>
-               <div class="mlrf mlrf-date">
-                   <img src="images/2016110103.png">
-                   <span class="fs-font">2017-01-20</span>
-               </div>
-           </div>
-
+           
+           <c:forEach items="${searchVoList }" var="d">
+		       <div class="news-item">
+	               <a href="searchDetail?id=${d.detailid }" target="_blank">
+	                   <div class="rc-title" title="${d.title }">${d.title }</div>
+	                   <div data-length="180" class="rc-content xzl fm-song fs-12 fc-999">
+	                   ${d.content }
+	                   </div>
+	               </a>
+	               <div class="mlrf mlrf-date">
+	                   <img src="static/images/2016110103.png">
+	                   <span class="fs-font">${d.createtime }</span>
+	               </div>
+	           </div>
+		  </c:forEach>
        </div>
    </div>
    <%@include file="../footer.jsp" %>
