@@ -9,97 +9,53 @@
          <div class="vt_nav">
             <img class="nav_logo" src="static/images/vt_2017073101.png" alt="logo">
             <div class="nav_right">
-               <div class="nav_box">
+              <div class="nav_box">
                   <a href="#" class="nav_link">About Vertence</a>
                   <div class="nav_select nav_select1">
                      <!-- <div class="nav_bgh clearfix"> -->
                      <div class="nav_list nav_list1">
+                        <a href="detail?id=e437d4ea4bdc497c94fca78329cbdb53" target="_blank"> 
                         <img class="nav_show" src="static/images/vt_2017082000.jpg" alt="">
+                        </a>
                         <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
                         <h4>Code of Conduct</h4>
                      </div>
                      <div class="nav_list">
+                        <a href="detail?id=905a5f9601534ee6b049c70a7ebc261d" target="_blank"> 
                         <img class="nav_show" src="static/images/vt_2017082001.png" alt="">
+                        </a>
                         <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
                         <h4>Our values</h4>
                      </div>
                      <div class="nav_list">
+                        <a href="detail?id=ec17202651ec487caa36bf76e580f529" target="_blank"> 
                         <img class="nav_show" src="static/images/vt_2017082002.jpg" alt="">
+                        </a>
                         <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
                         <h4>News Room</h4>
                      </div>
                      <div class="nav_list">
+                        <a href="detail?id=6239fc56d4bb4a4e864fb7d626e185fa" target="_blank"> 
                         <img class="nav_show" src="static/images/vt_2017082003.jpg" alt="">
+                        </a>
                         <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
                         <h4>Videos</h4>
                      </div>
                      <div class="nav_list nav_list2">
+                        <a href="detail?id=c6a9703df2c6494293d62e3874a11743" target="_blank"> 
                         <img class="nav_show" src="static/images/vt_2017082004.jpg" alt="">
+                        </a>
                         <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
                         <h4>Cooperate Information</h4>
                      </div>
-                     <!-- </div> -->
                   </div>
                </div>
-
                <div class="nav_box">
                   <a href="#" class="nav_link"> Projects</a>
-                  <div class="nav_select">
-                     <!-- <div class="nav_bgh clearfix"> -->
-                     <div class="nav_list nav_list1">
-                        <img class="nav_show" src="static/images/" alt="">
-                        <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
-                        <h4>粮食机械及工程解决方案</h4>
-                        <div class="nav_text">粮食机械的研发、制造</div>
-                        <div class="nav_text">烘干等粮食加工</div>
-                        <div class="nav_text">粮食储备</div>
-                        <div class="nav_text">配套仓储</div>
-                        <div class="nav_text">优质的售后服务</div>
-                     </div>
-                     <!-- <div class="nav_border"></div> -->
-                     <div class="nav_list">
-                        <img class="nav_show" src="static/images/" alt="">
-                        <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
-                        <h4>粮食机械及工程解决方案</h4>
-                        <div class="nav_text">粮食机械的研发、制造</div>
-                        <div class="nav_text">烘干等粮食加工</div>
-                        <div class="nav_text">粮食储备</div>
-                        <div class="nav_text">配套仓储</div>
-                        <div class="nav_text">优质的售后服务</div>
-                     </div>
-                     <div class="nav_list">
-                        <img class="nav_show" src="static/images/" alt="">
-                        <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
-                        <h4>粮食机械及工程解决方案</h4>
-                        <div class="nav_text">粮食机械的研发、制造</div>
-                        <div class="nav_text">烘干等粮食加工</div>
-                        <div class="nav_text">粮食储备</div>
-                        <div class="nav_text">配套仓储</div>
-                        <div class="nav_text">优质的售后服务</div>
-                        <div class="nav_text">烘干等粮食加工</div>
-                        <div class="nav_text">配套仓储</div>
-                     </div>
-                     <div class="nav_list">
-                        <img class="nav_show" src="static/images/" alt="">
-                        <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
-                        <h4>粮食机械及工程解决方案</h4>
-                        <div class="nav_text">粮食机械的研发、制造</div>
-                        <div class="nav_text">烘干等粮食加工</div>
-                        <div class="nav_text">粮食储备</div>
-                        <div class="nav_text">配套仓储</div>
-                        <div class="nav_text">优质的售后服务优质的售后服务</div>
-                     </div>
-                     <div class="nav_list nav_list2">
-                        <img class="nav_show" src="static/images/" alt="">
-                        <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
-                        <h4>粮食机械及工程解决方案</h4>
-                        <div class="nav_text">粮食机械的研发、制造</div>
-                        <div class="nav_text">烘干等粮食加工</div>
-                        <div class="nav_text">粮食储备</div>
-                        <div class="nav_text">配套仓储</div>
-                        <div class="nav_text">优质的售后服务</div>
-                     </div>
-                     <!-- </div> -->
+                  <div class="nav_select nav_select2">
+                       <a href="projects" target="_blank">
+                     <img src="static/images/vt_2017091707.jpg" alt="" width="1050px" height="280px;" style="margin: 0 0 15px 0;">
+                     </a>
                   </div>
                </div>
 
@@ -108,46 +64,46 @@
                   <div class="nav_select nav_select3">
                      <!-- <div class="nav_bgh clearfix"> -->
                      <div class="nav_list nav_list1">
-                        <img class="nav_show" src="static/images/vt_2017082015.jpg" alt="">
+                        <a href="products?type=0" target="_blank"><img class="nav_show" src="static/images/vt_2017082015.jpg" alt=""></a>
                         <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
                         <h4>Water Treatment Products</h4>
-                        <div class="nav_text">AUTOMATIC WATER SOFTENERS</div>
-                        <div class="nav_text">Filters</div>
-                        <div class="nav_text">RO SYSTEM</div>
-                        <div class="nav_text">EDI</div>
+                       <a href="detail?id=e3f7432008ed4cabaf99177fcb401f99" target="_blank"> <div class="nav_text">AUTOMATIC WATER SOFTENERS</div>
+                       <a href="detail?id=af4f47f597ba468e8850128b5c552c64" target="_blank"> <div class="nav_text">Filters</div>
+                       <a href="detail?id=e452b26c421f4824a6820faf7f7d564e" target="_blank"> <div class="nav_text">RO SYSTEM</div>
+                       <a href="detail?id=e7d04a18a3db48cd82666aa6690e5408" target="_blank"> <div class="nav_text">EDI</div>
                      </div>
                      <div class="nav_list">
-                        <img class="nav_show" src="static/images/vt_2017082016.jpg" alt="">
+                        <a href="products?type=1" target="_blank"><img class="nav_show" src="static/images/vt_2017082016.jpg" alt=""></a>
                         <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
                         <h4>Solar Power Products</h4>
-                        <div class="nav_text">Solar Power Station</div>
-                        <div class="nav_text">Solar AC Pump</div>
-                        <div class="nav_text">Solar desalination plant</div>
-                        <div class="nav_text">Solar Irrigation System</div>
-                        <div class="nav_text">Solar Power system Household</div>
+                       <a href="detail?id=5cb0505893954a4daab941a893e94715" target="_blank"> <div class="nav_text">Solar Power Station</div>
+                       <a href="detail?id=6bb681e085004d4da4be756894f9289d" target="_blank"> <div class="nav_text">Solar AC Pump</div>
+                       <a href="detail?id=cfda23fc4f5f4469926bf0cec6fcb8ce" target="_blank"> <div class="nav_text">Solar desalination plant</div>
+                       <a href="detail?id=80e20fad998445fcb218ddb44cc2bb63" target="_blank"> <div class="nav_text">Solar Irrigation System</div>
+                       <a href="detail?id=ed0e0299931c49fda88500a55e474126" target="_blank"> <div class="nav_text">Solar Power system Household</div>
                      </div>
                      <div class="nav_list">
-                        <img class="nav_show" src="static/images/vt_2017082017.jpg" alt="">
+                        <a href="products?type=2" target="_blank"><img class="nav_show" src="static/images/vt_2017082017.jpg" alt=""></a>
                         <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
                         <h4>Intelligent Farming</h4>
-                        <div class="nav_text">Agriculture IOT</div>
-                        <div class="nav_text">Intelligent Greenhouse System</div>
-                        <div class="nav_text">Water saving irrigation project</div>
-                        <div class="nav_text">Desalination greenhouse</div>
+                       <a href="detail?id=f8f0141c96ad424bb92c680531d115cb" target="_blank"> <div class="nav_text">Agriculture IOT</div>
+                       <a href="detail?id=cf69dca64f914659b9a04e7296c302a2" target="_blank"> <div class="nav_text">Intelligent Greenhouse System</div>
+                       <a href="detail?id=7725eed578a64f3f821f37968b310c01" target="_blank"> <div class="nav_text">Water saving irrigation project</div>
+                       <a href="detail?id=6cdaedf723fd4ebbbde2e8171811f0de" target="_blank"> <div class="nav_text">Desalination greenhouse</div>
                      </div>
                      <div class="nav_list">
-                        <img class="nav_show" src="static/images/vt_2017082018.jpg" alt="">
+                        <a href="products?type=3" target="_blank"><img class="nav_show" src="static/images/vt_2017082018.jpg" alt=""></a>
                         <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
                         <h4>Pressure Vessel Products</h4>
-                        <div class="nav_text">Chemical</div>
-                        <div class="nav_text">Power Planet</div>
-                        <div class="nav_text">Petroleum Refinery</div>
+                        <a href="detail?id=6f7e5c714ecb48e7a3cb5398906a4ca9" target="_blank"><div class="nav_text">Chemical</div>
+                        <a href="detail?id=be134cde4e3a4bcba97bfd891828d1ca" target="_blank"><div class="nav_text">Power Planet</div>
+                        <a href="detail?id=09d00d128ec6457bb9b6a696c6625463" target="_blank"><div class="nav_text">Petroleum Refinery</div>
                      </div>
                      <div class="nav_list nav_list2">
-                        <img class="nav_show" src="static/images/vt_2017082019.jpg" alt="">
+                         <a href="products?type=4" target="_blank"> <img class="nav_show" src="static/images/vt_2017082019.jpg" alt=""></a>
                         <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
                         <h4>Environmental Protect</h4>
-                        <div class="nav_text">Vegetable and farm waste biogas Power Plant</div>
+                        <a href="detail?id=a4ed01aa893e4f5c8ac0c2d7bce84880" target="_blank"><div class="nav_text">Vegetable and farm waste biogas Power Plant</div>
                      </div>
                   </div>
                </div>
@@ -157,32 +113,44 @@
                   <div class="nav_select nav_select4" style="width:1254px;left:0;">
                      <!-- <div class="nav_bgh clearfix"> -->
                      <div class="nav_list nav_list1">
+                     <a href="detail?id=e271d74cdc344ccdb835399981f168c0" target="_blank">
                         <img class="nav_show" src="static/images/vt_2017082009.jpg" alt="">
+                        </a>
                         <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
                         <h4>General Terms and Conditions</h4>
                      </div>
                      <div class="nav_list">
+                     <a href="detail?id=cadffa519ed14c579e243814e9c3a3ce" target="_blank">
                         <img class="nav_show" src="static/images/vt_2017082010.jpg" alt="">
+                        </a>
                         <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
                         <h4>Labour rights</h4>
                      </div>
                      <div class="nav_list">
+                     <a href="detail?id=ea38de8439244e83bde5761b5009f3ee" target="_blank">
                         <img class="nav_show" src="static/images/vt_2017082011.jpg" alt="">
+                        </a>
                         <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
                         <h4>Human rights policy</h4>
                      </div>
                      <div class="nav_list">
+                     <a href="detail?id=25422f782efb4956ac77c700ff82396d" target="_blank">
                         <img class="nav_show" src="static/images/vt_2017082012.jpg" alt="">
+                        </a>
                         <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
                         <h4>Our approach to human rights</h4>
                      </div>
                      <div class="nav_list">
+                     <a href="detail?id=bc75cf2424f445a98ae6e159e32a3fae" target="_blank">
                         <img class="nav_show" src="static/images/vt_2017082013.jpg" alt="">
+                        </a>
                         <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
                         <h4>Personal health and safety</h4>
                      </div>
                      <div class="nav_list nav_list2">
+                     <a href="detail?id=63526bee386d4af2afc34d3e1b96caaa" target="_blank">
                         <img class="nav_show" src="static/images/vt_2017082014.jpg" alt="">
+                        </a>
                         <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
                         <h4>Process safety</h4>
                      </div>
@@ -198,39 +166,40 @@
                         <img class="nav_show" src="static/images/vt_2017082005.jpg" alt="">
                         <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
                         <h4>Engineering and Design</h4>
-                        <div class="nav_text">Construction-Driven Execution</div>
-                        <div class="nav_text">Design Capabilities</div>
-                        <div class="nav_text">Design Reviews</div>
-                        <div class="nav_text">Engineering Capabilities</div>
-                        <div class="nav_text">Project Management</div>
-                        <div class="nav_text">Value Engineering</div>
+                        <a href="detail?id=333c34ad0dfe412cbdffcf671572d367" target="_blank"><div class="nav_text">Construction-Driven Execution</div></a>
+                       <a href="detail?id=dba01dafb7a847499d545c00508e48e0" target="_blank"> <div class="nav_text">Design Capabilities</div></a>
+                       <a href="detail?id=357ebe98125f409e8e9d52a4d64e5e05" target="_blank"> <div class="nav_text">Design Reviews</div></a>
+                       <a href="detail?id=9fd6c33d336144f380422b931c434bf8" target="_blank"> <div class="nav_text">Engineering Capabilities</div></a>
+                       <a href="detail?id=6dc0631ec4f44ea58f0d90000d88831d" target="_blank"> <div class="nav_text">Project Management</div></a>
+                       <a href="detail?id=95090826e5d947d489c07ec1f00cb559" target="_blank"> <div class="nav_text">Value Engineering</div></a>
                      </div>
                      <div class="nav_list">
                         <img class="nav_show" src="static/images/vt_2017082006.jpg" alt="">
                         <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
                         <h4>Procurement</h4>
-                        <div class="nav_text">Procurement Services</div>
-                        <div class="nav_text">Supplier and Contractor Registry</div>
-                        <div class="nav_text"></div>
+                       <a href="detail?id=357ebe98125f409e8e9d52a4d64e5e35" target="_blank"> <div class="nav_text">Procurement Services</div></a>
+                        <a href="detail?id=357ebe98125f409e8e9d52a4d54e5e05" target="_blank"><div class="nav_text">Supplier and Contractor Registry</div></a>
                      </div>
                      <div class="nav_list">
+                     <a href="detail?id=cd204c0a95014318b78f1acd0514a1fb" target="_blank">
                         <img class="nav_show" src="static/images/vt_2017082007.jpg" alt="">
+                        </a>
                         <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
                         <h4>Consultancy</h4>
-                        <div class="nav_text"></div>
-                        <div class="nav_text"></div>
-                        <div class="nav_text"></div>
+                        <a href="detail?id=383f26ea88cb4de29c34261ce14dbaa0" target="_blank"><div class="nav_text"></div></a>
+                        <a href="detail?id=c38d777904f642b3a0014cd8890bd435" target="_blank"><div class="nav_text"></div></a>
+                       <a href="detail?id=df29f5ae8a794268b8e2e906292e0445" target="_blank"> <div class="nav_text"></div></a>
                      </div>
                      <div class="nav_list nav_list2">
                         <img class="nav_show" src="static/images/vt_2017082008.jpg" alt="">
                         <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
                         <h4>Diversified Services</h4>
-                        <div class="nav_text">Electrical & Instrumentation</div>
-                        <div class="nav_text">Equipment, Tools & Fleet Services</div>
-                        <div class="nav_text">Fabric Maintenance</div>
-                        <div class="nav_text">Inspection & Integrity</div>
-                        <div class="nav_text">Mechanical & Piping</div>
-                        <div class="nav_text">Power Services & Products</div>
+                        <a href="detail?id=1ee6fe033a414d3786ad8553a8791aa9" target="_blank"><div class="nav_text">Electrical & Instrumentation</div></a>
+                        <a href="detail?id=7fe3c1024a1c4d9dbc68a7d312a0efb1" target="_blank"><div class="nav_text">Equipment, Tools & Fleet Services</div></a>
+                        <a href="detail?id=c1675f34af5a437fb993ea8afe9d9206" target="_blank"><div class="nav_text">Fabric Maintenance</div></a>
+                        <a href="detail?id=642b402b29ee4669bc22974093d4793d" target="_blank"><div class="nav_text">Inspection & Integrity</div></a>
+                        <a href="detail?id=b3b497d1e3774808a8f63761ceb2ae77" target="_blank"><div class="nav_text">Mechanical & Piping</div></a>
+                        <a href="detail?id=34a6dced49224d0d8c061143b6ed9b44" target="_blank"><div class="nav_text">Power Services & Products</div></a>
                      </div>
                   </div>
                </div>
