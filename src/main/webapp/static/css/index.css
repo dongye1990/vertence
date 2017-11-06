@@ -2,7 +2,7 @@
 * @Author: snow
 * @Date:   2017-07-31 11:35:09
 * @Last Modified by:   snow
-* @Last Modified time: 2017-09-10 19:50:53
+* @Last Modified time: 2017-11-06 12:50:25
 */
 html, body, p, ul, ol, li, dl, dt, dd, div, h1, h2, h3, h4, h5, h6, span,
 	strong, em, i, img, form, input, table {
@@ -730,31 +730,63 @@ a {
 
 .ygsjd_part {
 	float: left;
-	width: 277px;
+	width: 394px;
 	background: #F2F3F7;
-	padding: 15px 15px 25px;
+	/*padding: 15px 15px 25px;*/
 }
 
 .ygsjd_part+.ygsjd_part {
-	margin-left: 30px;
+	margin-left: 8px;
 }
 
 .ygsjd_img {
-	width: 99%;
+	width: 100%;
 }
 
 .ygsjd_introduce {
 	width: 100%;
 	overflow: hidden;
-	margin-top: 18px;
-	color: #2591D9;
+	position: relative;
 }
 
 .ygsjd_delbox {
 	text-align: right;
 	margin-top: 20px;
 }
-
+.pdt-title {
+	display: inline-block;
+  background-color: #e0dfe0;
+  height: 88px;
+  margin-left: 62px;
+  padding: 12px 8px 8px 8px;
+  cursor: pointer;
+  color: #0e8a46;
+}
+.pdt-title:hover {
+	background-color: #91de8f;
+	/*color: #fff;*/
+}
+.pdt-title h3 {
+	font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  text-align: left;
+  font-weight: 400;
+  line-height: 16px;
+  margin: 0;
+  padding: 0 0 3px;
+  color: #06542a;
+  width: 100%;
+}
+.pdt-title span {
+	display: inline-block;
+	margin-top: 8px;
+}
+.h3-img {
+	position: absolute;
+	top: 27px;
+	left: 14px;
+}
+/*
 .ygsjd_detail {
 	display: inline-block;
 	width: 60px;
@@ -767,7 +799,7 @@ a {
 
 .ygsjd_detail:hover {
 	background: #2691D9;
-}
+}*/
 /*新闻列表页*/
 .n-header {
 	height: 180px;
