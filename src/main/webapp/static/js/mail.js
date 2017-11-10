@@ -6,11 +6,9 @@
 			        url : 'mainSend',
 			        data : $("#mailForm").serialize(),
 			        success  : function(data) {
-			        	console.log("##########");
-			        	console.log(data);
 			        	layer.msg('success!',{icon:1,time:2000});
-//			        	setTimeout('history.go(0)', 3000 );
-//			        	setTimeout('parent.location.reload()', 2000 );
+//			        	setTimeout('history.go(0)', 2000 );
+			        	setTimeout('parent.location.reload()', 2000 );
 					}
 			    });
 	        } ,
