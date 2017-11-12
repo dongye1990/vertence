@@ -478,8 +478,11 @@
    <div class="footer">
       <div class="container clearfix">
          <div class="fl ft_erweima">
-            <img src="static/images/vt_2017082505.png" alt="">
-            <div>扫描查看手机版网站</div>
+            <img style="margin:20px 20px 0 0" src="static/images/footer_01.png" alt="">
+            <img style="margin:20px 0px 0 0" src="static/images/footer_02.png" alt=""><br/>
+            <img style="margin:15px 20px 0 0" src="static/images/footer_03.png" alt="">
+            <img style="margin:15px 0px 0 0" src="static/images/footer_04.png" alt="">
+            <div></div>
          </div>
 
          <div class="fl ft_text">

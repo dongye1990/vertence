@@ -50,7 +50,7 @@ a {
 	zoom: 1;
 }
 
-/*头部开始*/
+/*澶撮儴寮�*/
 .header {
 	width: 100%;
 	position: relative;
@@ -169,9 +169,9 @@ a {
 	width: 12px;
 	height: 7px;
 }
-/*头部结束*/
+/*澶撮儴缁撴潫*/
 
-/*导航开始*/
+/*瀵艰埅寮�*/
 .vt_nav {
 	z-index: 9;
 	width: 1180px;
@@ -203,7 +203,10 @@ a {
 .nav_right a:hover {
 	background-color: #fff;
 	opacity: 0.7;
-	color: #0bd606;
+	
+}
+.nav_right a:hover div {
+	background-color: rgba(216, 219, 223, 0.75);
 }
 
 .nav_select {
@@ -272,8 +275,10 @@ a {
 
 .nav_text {
 	margin-left: 18px;
-	margin-bottom: 8px;
+	margin-bottom: 6px;
 	width: 175px;
+	font-size:12px;
+	padding: 2px 0;
 }
 
 .nav_list1 .nav_sj {
@@ -307,8 +312,8 @@ a {
 .nav_select2 .nav_sj {
 	top: 104px;
 }
-/*导航结束*/
-/*banner开始*/
+/*瀵艰埅缁撴潫*/
+/*banner寮�*/
 .banner {
 	width: 100%;
 	position: absolute;
@@ -406,9 +411,9 @@ a {
 	color: #fff;
 	margin-bottom: 18px;
 }
-/*banner结束*/
+/*banner缁撴潫*/
 
-/*视频开始*/
+/*瑙嗛寮�*/
 .container {
 	margin: 0 auto;
 	width: 1200px;
@@ -493,9 +498,9 @@ a {
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,
 		endColorstr=#4C000000);
 }
-/*视频结束*/
+/*瑙嗛缁撴潫*/
 
-/*公司介绍开始*/
+/*鍏徃浠嬬粛寮�*/
 .advantage {
 	margin-bottom: 40px;
 	margin-top: 35px;
@@ -515,9 +520,9 @@ a {
 	line-height: 40px;
 }
 
-/*公司介绍结束*/
+/*鍏徃浠嬬粛缁撴潫*/
 
-/*地图开始*/
+/*鍦板浘寮�*/
 .mapmap {
 	width: 705px;
 	height: 350px;
@@ -533,9 +538,9 @@ a {
 .map_link:hover {
 	color: #003e74;
 }
-/*地图结束*/
+/*鍦板浘缁撴潫*/
 
-/*新闻开始*/
+/*鏂伴椈寮�*/
 .indust-article {
 	width: 280px;
 	margin-left: 16px;
@@ -648,9 +653,9 @@ a {
 	color: #999;
 	font-size: 12px;
 }
-/*新闻结束*/
+/*鏂伴椈缁撴潫*/
 
-/*底部*/
+/*搴曢儴*/
 .footer {
 	height: 200px;
 	width: 100%;
@@ -675,7 +680,7 @@ a {
 	padding-left: 15px;
 }
 
-/*产品页*/
+/*浜у搧椤�/
 .ygsjd_head {
 	height: 33px;
 	margin: 40px 0;
@@ -800,7 +805,7 @@ a {
 .ygsjd_detail:hover {
 	background: #2691D9;
 }*/
-/*新闻列表页*/
+/*鏂伴椈鍒楄〃椤�/
 .n-header {
 	height: 180px;
 	margin-bottom: 30px;
@@ -955,7 +960,7 @@ a {
 	font-size: 14px;
 	line-height: 24px;
 }
-/*图片开始*/
+/*鍥剧墖寮�*/
 .vtimg-box .container {
 	width: 1193px;
 	height: 136px;
@@ -996,20 +1001,20 @@ a {
 	top: 0;
 	left: -25px;
 }
-/*图片结束*/
+/*鍥剧墖缁撴潫*/
 .right-nav {
-	width: 50px;
+	/*width: 50px;*/
 	position: fixed;
-	bottom: 100px;
+	bottom: 120px;
 	right: 0;
 }
 
 .rn-email {
 	display: inline-block;
-	width: 45px;
+	/*width: 45px;
 	height: 45px;
 	background: #9ce290;
-	text-align: center;
+	text-align: center;*/
 }
 
 .rnav-top {
@@ -1023,8 +1028,6 @@ a {
 }
 
 .rn-email img {
-	width: 26px;
-	height: 26px;
 	margin-top: 10px;
 }
 
@@ -1044,7 +1047,7 @@ a {
 .product_hidden {
 	display: none;
 }
-/*搜索结果页面开始*/
+/*鎼滅储缁撴灉椤甸潰寮�*/
 .result-content-title {
   margin-top: 54px;
   padding: 0 2px 12px;
@@ -1076,7 +1079,7 @@ a {
 .result-page {
   margin: -30px 0 63px;
 }
-/*搜索结果页面结束*/
+/*鎼滅储缁撴灉椤甸潰缁撴潫*/
 .bv-form .help-block {
     margin-bottom: 0;
 }

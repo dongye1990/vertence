@@ -9,7 +9,10 @@
 </head>
 <body style="min-width:1200px;">
 <%@include file="../head.jsp" %>
- <!-- 新闻列表 -->
+ <!-- 新闻列表
+ http://www.idro.net/en/products/212-biogas/239-biogas-production-plant-humix-system.html
+ http://localhost:8080/vertence/newsdetail?id=3
+  -->
    <div class="container n-container">
       <div class="n-content">
          <div class="news-detail">
