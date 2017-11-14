@@ -17,22 +17,16 @@ import com.vertence.util.Utils;
  */
 public class Detail {
 	private Integer id;
-	private Integer type;
 	private String detailid;
 	private String title;
 	private String content;
 	private Date createTime;
+	private String date;
 	public Integer getId() {
 		return id;
 	}
 	public void setId(Integer id) {
 		this.id = id;
-	}
-	public Integer getType() {
-		return type;
-	}
-	public void setType(Integer type) {
-		this.type = type;
 	}
 	public String getTitle() {
 		return title;
@@ -58,6 +52,10 @@ public class Detail {
 	public void setDetailid(String detailid) {
 		this.detailid = detailid;
 	}
+	public String getDate() {
+		return new DateTime(createTime).toString("yyyy-MM-dd");
+	}
+	
 	
 	
 	

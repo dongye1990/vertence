@@ -18,7 +18,6 @@ import com.vertence.util.Utils;
  */
 public class News {
 	private Integer id;
-	private Integer type;
 	private String title;
 	private String content;
 	private Integer status;
@@ -30,24 +29,10 @@ public class News {
 	private String day;
 	private String simpleContent;
 	
-	
-	@Override
-	public String toString() {
-		return "News [id=" + id + ", type=" + type + ", title=" + title
-				+ ", content=" + content + ", status=" + status
-				+ ", createTime=" + createTime + ", updateTime=" + updateTime
-				+ "]";
-	}
-
-
 
 	public Integer getId() {
 		return id;
 	}
-	
-	
-
-
 
 	public Integer getCount() {
 		return count;
@@ -64,19 +49,6 @@ public class News {
 	public void setId(Integer id) {
 		this.id = id;
 	}
-
-
-
-	public Integer getType() {
-		return type;
-	}
-
-
-
-	public void setType(Integer type) {
-		this.type = type;
-	}
-
 
 
 	public String getTitle() {

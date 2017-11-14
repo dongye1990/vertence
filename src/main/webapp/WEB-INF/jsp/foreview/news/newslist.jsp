@@ -23,7 +23,7 @@
          <c:forEach items="${newsList }" var="d">
 	         <div class="n-list clearfix">
 		         <div class="ygsjnc_squre fl"></div>
-		         <div class="n-title fl"><a href="newsdetail?id=${d.id }" target="_blank" title="${d.title }">${d.title }</a></div>
+		         <div class="n-title fl"><a href="newsdetail?id=${d.id }" title="${d.title }">${d.title }</a></div>
 		         <c:if test="${d.status==2 }">
 		         	<div class="top fl">【置顶】</div>
 		         </c:if>

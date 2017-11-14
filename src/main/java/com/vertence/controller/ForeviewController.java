@@ -41,22 +41,16 @@ public class ForeviewController {
 	@Autowired
 	private SearchService searchService;
 	
+	@RequestMapping(value = "/index")
+	public String main(Model model) {
+		 return "redirect:/";
+	}
 	@RequestMapping(value = "/")
 	public String index(Model model) {
 		Subject subject=SecurityUtils.getSubject();
-		Session session=subject.getSession();
-		if(session.getAttribute("language")==null){
-			session.setAttribute("language", 0);
-		}
-		List<News> newsList=newsService.listNews(session.getAttribute("language").toString());
+		List<News> newsList=newsService.listNews();
 		model.addAttribute("newsList", newsList);
 		return "/foreview/index";
-	}
-	@RequestMapping(value = "/language")
-	public String language(Model model,Integer type) {
-		Session session=SecurityUtils.getSubject().getSession();
-		session.setAttribute("language", type);
-		return "redirect:/";
 	}
 	@RequestMapping(value = "/newsdetail")
 	public String index(Model model,int id) {
@@ -69,11 +63,8 @@ public class ForeviewController {
 	@RequestMapping(value = "/newslist")
 	public String newslist(Model model,Integer page) {
 		Subject subject=SecurityUtils.getSubject();
-		Session session=subject.getSession();
-		String language=session.getAttribute("language")==null?"0":
-			session.getAttribute("language").toString();
-		List<News> newsList=newsService.listNews(language,page);
-		int count=newsService.countNews(language);
+		List<News> newsList=newsService.listNews(page);
+		int count=newsService.countNews();
 		model.addAttribute("newsList", newsList);
 		model.addAttribute("count", count);
 		model.addAttribute("page", page==null?0:page);
@@ -132,23 +123,19 @@ public class ForeviewController {
 		}
 	}
 	@RequestMapping(value = "/detail")
-	public String detail(Model model,String id) {
-		Session session=SecurityUtils.getSubject().getSession();
-		String language=session.getAttribute("language")==null?"0":
-			session.getAttribute("language").toString();
-		Detail detail=detailService.selectByDetailId(id,language);
+	public String detail(Model model,String id,String i) {
+		Detail detail=detailService.selectByDetailId(id);
 		if(detail!=null){
 			List<Attachment> attachmentList = attachmentService.selectByForeignid(detail.getId(),Attachment.detailType);
 			model.addAttribute("attachmentList", attachmentList);
 		}
 		model.addAttribute("detail", detail);
+		model.addAttribute("i", i);
 		return "/foreview/detail";
 	}
 	@RequestMapping(value = "/video")
 	public String video(Model model,String id) {
-		Session session=SecurityUtils.getSubject().getSession();
-		String language=session.getAttribute("language")==null?"0":session.getAttribute("language").toString();
-		Detail detail=detailService.selectByDetailId(id,language);
+		Detail detail=detailService.selectByDetailId(id);
 		if(detail!=null){
 			List<Attachment> attachmentList = attachmentService.selectByForeignid(detail.getId(),Attachment.detailType);
 			model.addAttribute("attachmentList", attachmentList);

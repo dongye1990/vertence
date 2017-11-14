@@ -29,10 +29,9 @@ public class NewsService {
 		return newsList;
 	}
 	
-	public List<News> listNews(String type){
-		String sql="select * from news  where status!=0 and type="+type;
+	public List<News> listNews(){
+		String sql="select * from news  where status!=0";
 		sql+=" order by createTime desc,status desc limit 4";
-		System.out.println(sql.toString());
 		List<News> newsList= jdbcTemplate.query(sql, new Object[]{},new BeanPropertyRowMapper<News>(News.class));
 		return newsList;
 	}
@@ -48,15 +47,12 @@ public class NewsService {
 	public int insertOrUpdate(News news){
 		String sql;
 		if(news.getId()==null){
-			sql="insert INTO news VALUE(null,"+news.getType()+",'"+news.getTitle()+"','"+
-		news.getContent()+"',"+news.getStatus()+",sysdate(),sysdate(),0)";
+			sql="insert INTO news VALUE(null,'"+news.getTitle()+"','"+news.getContent()+"',"+news.getStatus()+",sysdate(),sysdate(),0)";
 		}else if(news.getStatus()==0){
 			sql="delete from news where id="+news.getId();
 		}else{
-			sql="update news set type="+news.getType()+",title='"+news.getTitle()+"',status="+
-		news.getStatus()+",content='"+news.getContent()+"' where id="+news.getId();
+			sql="update news set title='"+news.getTitle()+"',status="+news.getStatus()+",content='"+news.getContent()+"' where id="+news.getId();
 		}
-		System.out.println(sql);
 		return jdbcTemplate.update(sql);
 	}
 	public int del(Integer id){
@@ -64,15 +60,15 @@ public class NewsService {
 		return jdbcTemplate.update(sql);
 	}
 
-	public List<News> listNews(String language, Integer page) {
-		String sql="select * from news where status!=0 and type="+language;
+	public List<News> listNews(Integer page) {
+		String sql="select * from news where status!=0 ";
 		sql+=(" order by status desc,createTime desc limit "+(page==null?0:page*10)+",10");
 		System.out.println(sql);
 		List<News> newsList= jdbcTemplate.query(sql, new Object[]{},new BeanPropertyRowMapper<News>(News.class));
 		return newsList;
 	}
-	public int countNews(String language) {
-		String sql="select * from news where status!=0 and type="+language;
+	public int countNews() {
+		String sql="select * from news where status!=0 ";
 		return jdbcTemplate.queryForList(sql).size();
 	}
 

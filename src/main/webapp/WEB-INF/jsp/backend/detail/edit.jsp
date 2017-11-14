@@ -56,21 +56,6 @@
 					</div>
 					<div class="space-4"></div>
 					<div class="form-group">
-						<label class="col-sm-2 control-label no-padding-right"
-							for="form-field-2"> 语言： </label>
-						<div class="col-sm-9">
-							<select class="width-40 chosen-select" id="form-field-select-3" name="type"  data-placeholder="请选择语言...">
-								<option value="0" selected>英语</option>
-								<option value="1" >中文</option>
-								<option value="2" >法语</option>
-							</select>
-						</div>
-					</div>
-					<script>
-					  $($("option")["${detail.type}"]).attr("selected",true);
-					</script>
-					<div class="space-4"></div>
-					<div class="form-group">
 						 <label class="col-sm-2 control-label no-padding-right" for="form-field-tags"> 正文： </label>
 					     <script id="editor" type="text/plain" style="width:1024px;height:400px;margin-left:18%"></script>
 					</div>

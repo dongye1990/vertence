@@ -12,11 +12,15 @@
 <body style="min-width: 1200px;">
 	<%@include file="../head.jsp"%>
 	<!-- 新闻列表 -->
-	<div class="container n-container">
-		<div class="n-content">
+	 <div class="container" style="padding-top:25px;">
+   <div>
+   		<div class="detail-position fl"><a href="index">HOME</a> > Email support</div>
+   		<div class="detail-back fr"><a href="#" onClick="javascript :history.go(-1);"> < Back</a></div>
+   </div>
+      <div class="n-content clearfix" style="margin-top: 25px;">
 			<form class="form-horizontal" role="form" id="mailForm">
 				<div class="page-header">
-				<h2>Email support</h2>
+				<h2 class="news-detail">Email support</h2>
 				<br>
 						<small>
 							If you have any information about the product or service, please feel free to email us. In order to provide you with more efficient service, We sincerely hope you can describe as fully as possible. We'll try our best to give you a reply within a working day.

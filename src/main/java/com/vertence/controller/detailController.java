@@ -49,7 +49,6 @@ public class detailController {
 		Detail detail=new Detail();
 		detail.setId(id);
 		detail.setDetailid(detailid);
-		detail.setType(type);
 		detail.setTitle(title);
 		detail.setContent(content);
 		int count=detailService.insertOrUpdate(detail);

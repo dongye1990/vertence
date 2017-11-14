@@ -31,11 +31,10 @@
 										<table id="hexin-table" class="table table-striped table-bordered table-hover">
 												<thead>
 													<tr>
-														<th width="7%">ID</th>
-														<th width="10%">详情页id</th>
+														<th width="10%">ID</th>
+														<th width="20%">详情页id</th>
 														<th>标题</th>
-														<th width="15%">语言</th>
-														<th width="15%">创建时间</th>
+														<th width="20%">创建时间</th>
 														<th width="15%">操作</th>
 													</tr>
 												</thead>
@@ -45,7 +44,6 @@
 														<td>${d.id }</td>
 														<td>${d.detailid }</td>
 														<td>${d.title }</td>
-														<td>${d.type==0?"英文":(d.type==1?"中文":"法文") }</td>
 														<td><fmt:formatDate value="${d.createTime }" pattern="yyyy-MM-dd HH:mm:ss"/></td>
 														<td class="td-manage">
 															<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">

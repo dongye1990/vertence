@@ -15,10 +15,10 @@
          </div>
 
          <div class="fl ft_text">
-            <div>©2016 江苏维坦斯科技有限公司 版权所有</div>
-            <div>地址：江苏省扬州市邗江区西湖镇司徒庙路北侧</div>
-            <div>电话：(TEL):0514-82880903 (FAX):0514-82880903</div>
-            <div>邮箱：sales@vertence.cn（转接事业部）</div>
+            <div> 2017 JIANGSU VERTENCE TECHNOLOGIES CO.,LTD . All Rights Reserved.</div>
+            <div>Address: North, Situmiao Road, Xihu Town, Hanjiang District, Yangzhou City, China.</div>
+            <div>Tel: +86-(514)-82880903 &nbsp;&nbsp;&nbsp;&nbsp;Fax:+86-(514)-82880903</div>
+            <div>Email: sales@vertence.cn</div>
          </div>
       </div>
    </div>

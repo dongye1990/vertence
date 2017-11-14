@@ -54,7 +54,6 @@ public class NewsController {
 	public int edit(Integer id,Integer type,String title,String content,Integer status) {
 		News news=new News();
 		news.setId(id);
-		news.setType(type);
 		news.setTitle(title);
 		news.setContent(content);
 		news.setStatus(status);

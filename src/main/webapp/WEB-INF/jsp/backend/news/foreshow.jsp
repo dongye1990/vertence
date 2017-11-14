@@ -30,10 +30,9 @@
 												<thead>
 													<tr>
 														<th>标题</th>
-														<th width="8%">语言</th>
-														<th width="15%">修改时间</th>
-														<th width="15%">创建时间</th>
-														<th width="12%">操作</th>
+														<th width="17%">修改时间</th>
+														<th width="17%">创建时间</th>
+														<th width="14%">操作</th>
 													</tr>
 												</thead>
 												<tbody>
@@ -41,7 +40,6 @@
 													<tr>
 														<td>${d.id }</td>
 														<td>${d.title }</td>
-														<td>${d.type==0?"英文":(d.type==1?"中文":"法文") }</td>
 														<td><fmt:formatDate value="${d.updateTime }" pattern="yyyy-MM-dd HH:mm:ss"/></td>
 														<td><fmt:formatDate value="${d.createTime }" pattern="yyyy-MM-dd HH:mm:ss"/></td>
 														<td>

@@ -33,24 +33,24 @@ public class DetailService {
 		Detail detail= jdbcTemplate.query(sql, new Object[]{id},new BeanPropertyRowMapper<Detail>(Detail.class)).get(0);
 		return detail;
 	}
-	public Detail selectByDetailId(String detailid,String type){
-		String sql="select * from detail where detailid=? and type=?";
-		List<Detail> query = jdbcTemplate.query(sql, new Object[]{detailid,type},new BeanPropertyRowMapper<Detail>(Detail.class));
+
+	public Detail selectByDetailId(String detailid){
+		String sql="select * from detail where detailid=?";
+		List<Detail> query = jdbcTemplate.query(sql, new Object[]{detailid},new BeanPropertyRowMapper<Detail>(Detail.class));
 		Detail detail= query.size()==0?null:query.get(0);
 		return detail;
 	}
 	public int insertOrUpdate(Detail detail){
 		String sql;
 		if(detail.getId()==null){
-			sql="insert INTO detail VALUE(null,?,?,?,?,sysdate())";
+			sql="insert INTO detail VALUE(null,?,?,?,sysdate())";
 		}else {
-			sql="update detail set type=?,detailid=?,title=?,content=? where id=?";
+			sql="update detail set detailid=?,title=?,content=? where id="+detail.getId();
 		}
-		return jdbcTemplate.update(sql,new Object[]{detail.getType(),detail.getDetailid(),
-				detail.getTitle(),detail.getContent()});
+		return jdbcTemplate.update(sql,new Object[]{detail.getDetailid(),detail.getTitle(),detail.getContent()});
 	}
 	public int del(Integer id){
-		String sql="delete from detail where id=?";
+		String sql="delete from detail where detailid=?";
 		return jdbcTemplate.update(sql,new Object[]{id});
 	}
 }

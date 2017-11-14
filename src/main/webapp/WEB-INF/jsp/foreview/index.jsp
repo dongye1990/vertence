@@ -54,8 +54,8 @@
    <div class="container clearfix">
       <!-- 地图开始 -->
       <div class="mapmap fl">
-         <a href="projects" target="_blank"><img src="static/images/vt_2017082508.jpg" alt="" width="705" height="350"></a>
-         <a href="projects" target="_blank" class="map_link">View Projects around the World</a>
+         <a href="projects" ><img src="static/images/vt_2017082508.jpg" alt="" width="705" height="350"></a>
+         <a href="projects"  class="map_link">View Projects around the World</a>
       </div>
       <!-- 地图结束 -->
 
@@ -66,7 +66,7 @@
                  <img class="blocker" src="static/images/vt_2017082501.png" alt="">
                  <span class="module-titlech">News</span>
              </div>
-             <a href="newslist" class="more" title="more" target="_blank">
+             <a href="newslist" class="more" title="more" >
                 <img src="static/images/vt_2017082503.png" alt="">
                 <span>more</span>
              </a>
@@ -79,7 +79,7 @@
                         <span class="ib-day">${d.day }</span>
                     </div>
                     <div class="ib-article fl">
-                        <a href="newsdetail?id=${d.id }" target="_blank" title="${d.title }">
+                        <a href="newsdetail?id=${d.id }"  title="${d.title }">
                             <div data-length="22" class="ibc-title xzl" >${d.title }</div>
                             <div data-length="34" class="it-content xzl">${d.simpleContent }</div>
                         </a>

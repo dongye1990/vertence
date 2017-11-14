@@ -16,7 +16,7 @@ $(function() {
     $('#hd_img').click(function() {
     	if($('#hd_search').val()=='')
     		return;
-    	window.open("search?text="+$('#hd_search').val());    
+    	window.location.href="search?text="+$('#hd_search').val();    
     });
     $('.hd_right').on('mouseleave',function() {
         if($('#hd_search').val() == '') {

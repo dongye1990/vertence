@@ -11,7 +11,12 @@
 </head>
 <body style="min-width: 1200px;">
 	<%@include file="../head.jsp"%>
-	<div class="container clearfix">
+	<div class="container" style="padding-top:25px;">
+   <div>
+   		<div class="detail-position fl"><a href="index">HOME</a> >projects</div>
+   		<div class="detail-back fr"><a href="#" onClick="javascript :history.go(-1);"> < Back</a></div>
+   </div>
+      <div class="n-content clearfix" style="margin-top: 35px;">
 		<ul class="nav-left fl">
 			<span class="nleft-title">Select a Client Market</span>
 			<li id="ivoire_Biogas">Abidjan-Cote_D'ivoire_Biogas</li>
@@ -32,6 +37,7 @@
 		</ul>
 		<div class="fl left-map" id="googleMap"
 			style="width: 940px; height: 620px;"></div>
+	</div>
 	</div>
 	<%@include file="../footer.jsp"%>
 </body>

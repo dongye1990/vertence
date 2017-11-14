@@ -9,7 +9,11 @@
 </head>
 <body style="min-width:1200px;">
    <%@include file="../head.jsp" %>
-     <div class="result-content">
+     <div class="container" style="padding-top:25px;">
+     <div>
+   		<div class="detail-position fl"><a href="index">HOME</a> >search</div>
+   		<div class="detail-back fr"><a href="#" onClick="javascript :history.go(-1);"> < Back</a></div>
+      </div>
        <div class="container n-container">
            <div class="result-content-title clearfix">
                <span>Your search results are as follows</span>
@@ -18,8 +22,8 @@
            
            <c:forEach items="${searchVoList }" var="d">
 		       <div class="news-item">
-	               <a href="searchDetail?id=${d.detailid }" target="_blank">
-	                   <div class="rc-title" title="${d.title }">${d.title }</div>
+	               <a href="searchDetail?id=${d.detailid }" >
+	                   <div class="rc-title" >${d.title }</div>
 	                   <div data-length="180" class="rc-content xzl fm-song fs-12 fc-999">
 	                   ${d.content }
 	                   </div>
