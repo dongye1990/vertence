@@ -850,7 +850,7 @@ a {
 }
 
 .n-content {
-	padding: 0px 35px 30px;
+	padding: 0px 0px 30px;
 	margin-bottom: 40px;
 	border-top: 0;
 }
@@ -1166,4 +1166,100 @@ a {
 	color: #ffffff;
 	overflow: hidden;
 	margin-top: 8px;
+}
+.hd-banner img {
+	width: 100%;
+}
+.detail-right {
+	width: 450px;
+	margin-left: 30px;
+}
+.detail-titel {
+	width: 100%;
+    margin-bottom: 5px;
+    background-color: #5fc6ef;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: default;
+}
+.detail-text a{
+	display:inline-block;
+	color:#3FAE29;
+	margin-bottom: 5px;
+}
+.detail-position {
+	color:#3FAE29;
+	font-size:16px;
+	z-index:9999;
+	position: relative;
+}
+.detail-position a {
+	color:#000;
+}
+.detail-position a:hover {
+	color:#3FAE29;
+}
+.detail-back a {
+	color:#000;
+	z-index:9999;
+	position: relative;
+}
+.detail-back a:hover {
+	color:#3FAE29;
+}
+.detail-titel:hover {
+	background:#50add2;
+}
+.detail-icon {
+	display:inline-block;
+	width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+.detail-icon1 {
+	background: #a5a5a5 url(../images/detail_01.png) no-repeat 5px 6px;
+}
+.detail-icon2 {
+	background: #a5a5a5 url(../images/detail_02.png) no-repeat 5px 6px;
+}
+.detail-icon3 {
+	background: #a5a5a5 url(../images/detail_03.png) no-repeat 6px 10px;
+	background-size: 23px;
+}
+.detail-icon4 {
+	background: #a5a5a5 url(../images/detail_04.png) no-repeat 5px 6px;
+}
+.detail-icon:hover {
+	background-color: #3e9251;
+}
+.detail-download {
+	background: #48803b url(../images/download.png) no-repeat 6px 5px;
+	margin-right: 5px; 
+}
+.detail-share {
+	background: #48803b url(../images/share.png) no-repeat 6px 5px;
+    margin-right: 15px;
+}
+.detail-imgs {
+	display:inline-block;
+	background-size: 18px 22px;
+    width: 135px;
+    height: 35px;
+    padding-left: 35px;
+    line-height: 14px;
+    padding-top: 3px;
+    color:#fff;
+    box-sizing: border-box;
+    margin-top: 4px;
+}
+.detail-imgs:hover {
+	opacity:0.9;
 }
