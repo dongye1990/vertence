@@ -996,6 +996,7 @@ a {
 	position: fixed;
 	bottom: 120px;
 	right: 0;
+	z-index:999999;
 }
 
 .rn-email {
