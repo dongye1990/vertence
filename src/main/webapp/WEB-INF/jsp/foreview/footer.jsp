@@ -1,19 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<%@ include file="taglibs.jsp"%>
+<%@ page  pageEncoding="UTF-8"%>
  <div class="right-nav">
    		<a class="rn-email" title="Email support" href="mail">
    			<img alt="" src="static/images/email.png">
    		</a>
-<!--    		<div class="rnav-top"> -->
-<!--    			<img alt="" src="static/images/top.png"> -->
-<!--    		</div> -->
    </div>
    <div class="footer">
-      <div class="container clearfix">
+       <div class="container clearfix">
          <div class="fl ft_erweima">
-            <img src="static/images/vt_2017082505.png" alt="">
-            <div>扫描查看手机版网站</div>
+            <img style="margin:20px 20px 0 0" src="static/images/footer_01.png" alt="">
+            <img style="margin:20px 0px 0 0" src="static/images/footer_02.png" alt=""><br/>
+            <img style="margin:15px 20px 0 0" src="static/images/footer_03.png" alt="">
+            <img style="margin:15px 0px 0 0" src="static/images/footer_04.png" alt="">
+            <div></div>
          </div>
 
          <div class="fl ft_text">

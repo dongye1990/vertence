@@ -1,9 +1,40 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<%@ include file="taglibs.jsp"%>
- <div class="header n-header">
-      <!-- <div class="aa"></div> -->
-      <div class="container">
+<%@ page pageEncoding="UTF-8"%>
+ <div class="header header-min">
+      <div class="aa"></div>
+      <div class="container" style="min-width:800px;">
+         <div class="clearfix">
+            <ul class="top_ul fl clearfix">
+               <li><a href="detail?id=3ce8448b1aa044219eb63da2402803dd" target="_blank" class="hd_link">Career</a></li>
+               <li class="hd_lbox">
+                  <a class="hd_link">Contact Us
+                     <img class="hd_down" src="static/images/vt_2017081000.png" alt="">
+                  </a>
+
+                  <div class="hd_second">
+                     <div><a href="detail?id=b93e3d332ddd44cbbe465c860068efee" target="_blank">Cooperation Relationship</a></div>
+                     <div><a href="detail?id=8c90498215ad460f88c889341227e8d3" target="_blank">Sales Services</a></div>
+                     <div><a href="detail?id=928744818f834d06bc0ea06773a8cb0d" target="_blank">After sale Services</a></div>
+                     <div><a href="detail?id=68fe09eb38cc49c5ba3d490e605a3c6a" target="_blank">Investor</a></div>
+                     <div><a href="detail?id=6cdd8d248b8545048c0ace8ebe1a91dc" target="_blank">Consultancy</a></div>
+                  </div>
+               </li>
+               <li><a href="detail?id=3ce8448b1aa044219eb83da2402803dd" target="_blank" class="hd_link">Locations</a></li>
+               <li class="hd_lbox">
+                  <a href="#" class="hd_link">language
+                     <img class="hd_down" src="static/images/vt_2017081000.png" alt="">
+                  </a>
+                  <div class="hd_second">
+                     <a href="language?type=0">English</a>
+                     <a href="language?type=1">中文</a>
+                  </div>
+               </li>
+            </ul>
+            <!-- 搜索 -->
+            <div class="hd_right fr clearfix">
+               <input type="text" class="hd_search fl" id="hd_search">
+               <div class="hd_img fl" id="hd_img"></div>
+            </div>
+         </div>
 
          <!-- 导航开始 -->
          <div class="vt_nav">
@@ -207,8 +238,62 @@
          </div>
          <!-- 导航结束 -->
       </div>
+      <!-- banner开始 -->
+      <div class="banner">
+         <ul class="banner-imgwrap clearfix">
+             <li class="present">
+               <img id="banner_img" src="static/images/vt_2017081001.jpg">
+               <div class="banner-layer">
+                  <a class="ftl_title" href="javascript:;">Material Supplement</a>
+                  <a href="javascript:;">Reliable support team covers from  materials inquiry , contract  and supply chain control ,materials inspection, materials shipment , to inspection and acceptance on site. </a>
+               </div>
+             </li>
+             <li>
+               <img src="static/images/vt_2017081002.jpg">
+               <div class="banner-layer">
+                  <a class="ftl_title" href="javascript:;">PV project</a>
+                  <a href="javascript:;">Our services cover the entire life cycle of photovoltaic projects from project development, financial structuring, project construction management, right up to long-term operations and management. PV Energy delivers projects at the highest international standards, and provides investors with exceptional and safeguarded opportunities to invest in renewable energy.</a>
+               </div>
+            </li>
+             <li>
+               <img src="static/images/vt_2017081003.jpg">
+               <div class="banner-layer">
+                  <a class="ftl_title" href="javascript:;">Innovation</a>
+                  <a href="javascript:;">Energy is vital to our daily lives. Over the coming decades, more people will gain access to energy and enjoy higher standards of living. At the same time, climate change remains a serious concern. We use human ingenuity, innovation and technology to unlock more, cleaner energy for the years ahead.</a>
+               </div>
+            </li>
+             <li>
+               <img src="static/images/vt_2017081004.jpg">
+                <div class="banner-layer">
+                  <a class="ftl_title" href="javascript:;">Biogas Power Plant</a>
+                  <a href="javascript:;">Vertence is a provider of environmentally friendly power plant and equipment solutions, using a wide variety of waste derived fuels. Technologically innovative designs ensure compliance with all emissions legislation at low CAPEX and OPEX costs.  </a>
+               </div>
+            </li>
+             <li>
+               <img src="static/images/vt_2017081005.jpg">
+                <div class="banner-layer">
+                  <a class="ftl_title" href="javascript:;">Intelligent Agriculture</a>
+                  <a href="javascript:;">Vertence Agriculture focuses on the development, production, sales and services of precise permeation Irrigation Technology, which carries out the systematic integration of the computer technology, internet technology, modern automatic control technology. Irrigation and fertigation for the crops can be carried out based on crops cultivation database respectively and can be optimized constantly. </a>
+               </div>
+            </li>
+             <li>
+               <img src="static/images/vt_2017081006.jpg">
+                <div class="banner-layer">
+                  <a class="ftl_title" href="javascript:;">Water treatment</a>
+                  <a href="javascript:;">Essential for life, water is fundamental to the health of people across all continents. At Vertence,we are committed to delivering efficient, effective and environmentally friendly water and wastewater networks, treatment facilities and ancillary equipment.</a>
+               </div>
+            </li>
+         </ul>
+         <ol class="banner-arrwrap">
+
+         </ol>
+      </div>
+      <!-- banner結束 -->
+
    </div>
-     <!-- 背景图 -->
-   <div class="hd-banner">
-      <img src="static/images/vt_2017091001.jpg" alt="">
-   </div>
+   <script type="text/javascript">
+     banner_img.onload =function() {
+    	  $('.banner').css('height',$("#banner_img").height()+'px');
+          $('.header').css('height',$("#banner_img").height()+'px');
+        }
+    </script>
