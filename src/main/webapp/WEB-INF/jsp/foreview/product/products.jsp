@@ -64,6 +64,8 @@
 	                     </a>
 	                  </div>
                  </div>
+                 </div>
+                 <div class="ygsjd_section clearfix" >
                  <div class="ygsjd_part">
 	                  <img class="ygsjd_img" src="static/images/vt_product_04.png" alt="">
 	                  <div class="ygsjd_introduce">
@@ -117,6 +119,8 @@
 	                     </a>
 	                  </div>
                  </div>
+                  </div>
+                 <div class="ygsjd_section clearfix" >
                    <div class="ygsjd_part">
 	                  <img class="ygsjd_img" src="static/images/vt_product_06.png" alt="">
 	                  <div class="ygsjd_introduce">
