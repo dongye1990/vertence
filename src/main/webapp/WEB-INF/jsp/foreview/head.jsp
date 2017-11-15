@@ -76,7 +76,7 @@
                         <img class="nav_show" src="static/images/vt_2017082004.jpg" alt="">
                         </a>
                         <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
-                        <h4>Cooperate Information</h4>
+                        <h4>Cooperation Information</h4>
                        <a href="detail?id=e3f7432008ed4aabaf99177fcb401f99" > <div class="nav_text">INNOVATION</div>
                        <a href="detail?id=af4f47f597ba498e8850128b5c552c64" > <div class="nav_text">Our strategy</div>
                        <a href="detail?id=e452b26c421f1224a6820faf7f7d564e" > <div class="nav_text">What we do</div>

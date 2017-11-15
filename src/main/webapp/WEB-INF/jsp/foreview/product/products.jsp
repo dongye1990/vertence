@@ -10,9 +10,12 @@
 <body style="min-width:1200px;">
    <%@include file="../head.jsp" %>
     <!-- 产品 -->
-   <div class="ygsj_data">
-      <div class="container">
-         <div class="ygsjd_head">
+   <div class="ygsj_data" >
+        <div class="container" style="padding-top:25px;">
+   <div>
+   		<div class="detail-back fr"><a href="#" onClick="javascript :history.go(-1);"> < Back</a></div>
+   </div>
+         <div class="ygsjd_head" style="margin-top: 45px;">
             <div class="ygsjd_titel">products</div>
             <div class="ygsjd_btnbox">
                <span id="ygsjd0" class="ygsjd_btn">Water Treatment Products</span>
@@ -40,7 +43,7 @@
                  </div>
                  -->
                  <div class="ygsjd_part">
-	                  <img class="ygsjd_img" src="static/images/ygsj_04.jpg" alt="">
+	                  <img class="ygsjd_img" src="static/images/vt_product_01.png" alt="">
 	                  <div class="ygsjd_introduce">
 	                     <img class="h3-img" src="static/images/vt_2017110601.png" alt="">
 	                     <a href="detail?i=0&id=e3f7432008ed4cabaf99177fcb401f99" >
@@ -52,7 +55,7 @@
 	                  </div>
                  </div>
                  <div class="ygsjd_part">
-	                  <img class="ygsjd_img" src="static/images/ygsj_06.jpg" alt="">
+	                  <img class="ygsjd_img" src="static/images/vt_product_02.png" alt="">
 	                  <div class="ygsjd_introduce">
 	                     <img class="h3-img" src="static/images/vt_2017110601.png" alt="">
 	                     <a href="detail?i=0&id=af4f47f597ba468e8850128b5c552c64" >
@@ -64,7 +67,7 @@
 	                  </div>
                  </div>
                  <div class="ygsjd_part">
-	                  <img class="ygsjd_img" src="static/images/ygsj_04.jpg" alt="">
+	                  <img class="ygsjd_img" src="static/images/vt_product_03.png" alt="">
 	                  <div class="ygsjd_introduce">
 	                     <img class="h3-img" src="static/images/vt_2017110601.png" alt="">
 	                     <a href="detail?i=0&id=e452b26c421f4824a6820faf7f7d564e" >
@@ -76,7 +79,7 @@
 	                  </div>
                  </div>
                  <div class="ygsjd_part">
-	                  <img class="ygsjd_img" src="static/images/ygsj_06.jpg" alt="">
+	                  <img class="ygsjd_img" src="static/images/vt_product_04.png" alt="">
 	                  <div class="ygsjd_introduce">
 	                     <img class="h3-img" src="static/images/vt_2017110601.png" alt="">
 	                     <a href="detail?i=0&id=e7d04a18a3db48cd82666aa6690e5408" >
@@ -93,7 +96,7 @@
             <div id="product1" class="product_hidden">
                <div class="ygsjd_section clearfix">
                  <div class="ygsjd_part">
-	                  <img class="ygsjd_img" src="static/images/ygsj_06.jpg"   alt="">
+	                  <img class="ygsjd_img" src="static/images/vt_product_05.png"   alt="">
 	                  <div class="ygsjd_introduce">
 	                     <img class="h3-img" src="static/images/vt_2017110601.png" alt="">
 	                     <a href="detail?i=0&id=5cb0505893954a4daab941a893e94715" >
@@ -105,7 +108,7 @@
 	                  </div>
                  </div>
                  <div class="ygsjd_part">
-	                  <img class="ygsjd_img" src="static/images/ygsj_04.jpg" alt="">
+	                  <img class="ygsjd_img" src="static/images/vt_product_06.png" alt="">
 	                  <div class="ygsjd_introduce">
 	                     <img class="h3-img" src="static/images/vt_2017110601.png" alt="">
 	                     <a href="detail?i=0&id=6bb681e085004d4da4be756894f9289d" >
@@ -117,7 +120,7 @@
 	                  </div>
                  </div>
                  <div class="ygsjd_part">
-	                  <img class="ygsjd_img" src="static/images/ygsj_06.jpg" alt="">
+	                  <img class="ygsjd_img" src="static/images/vt_product_07.png" alt="">
 	                  <div class="ygsjd_introduce">
 	                     <img class="h3-img" src="static/images/vt_2017110601.png" alt="">
 	                     <a href="detail?i=0&id=cfda23fc4f5f4469926bf0cec6fcb8ce" >
@@ -129,7 +132,7 @@
 	                  </div>
                  </div>
                    <div class="ygsjd_part">
-	                  <img class="ygsjd_img" src="static/images/ygsj_04.jpg" alt="">
+	                  <img class="ygsjd_img" src="static/images/vt_product_08.png" alt="">
 	                  <div class="ygsjd_introduce">
 	                     <img class="h3-img" src="static/images/vt_2017110601.png" alt="">
 	                     <a href="detail?i=0&id=80e20fad998445fcb218ddb44cc2bb63" >
@@ -140,10 +143,8 @@
 	                     </a>
 	                  </div>
                  </div>
-               </div>
-                 <div class="ygsjd_section clearfix">
                   <div class="ygsjd_part">
-	                  <img class="ygsjd_img" src="static/images/ygsj_06.jpg" alt="">
+	                  <img class="ygsjd_img" src="static/images/vt_product_09.png" alt="">
 	                  <div class="ygsjd_introduce">
 	                     <img class="h3-img" src="static/images/vt_2017110601.png" alt="">
 	                     <a href="detail?i=0&id=ed0e0299931c49fda88500a55e474126" >
@@ -159,7 +160,7 @@
             <div id="product2" class="product_hidden">
                <div class="ygsjd_section clearfix">
                 <div class="ygsjd_part">
-	                  <img class="ygsjd_img" src="static/images/ygsj_04.jpg" alt="">
+	                  <img class="ygsjd_img" src="static/images/vt_product_11.png" alt="">
 	                  <div class="ygsjd_introduce">
 	                     <img class="h3-img" src="static/images/vt_2017110601.png" alt="">
 	                     <a href="detail?i=0&id=f8f0141c96ad424bb92c680531d115cb" >
@@ -171,7 +172,7 @@
 	                  </div>
                  </div>
                    <div class="ygsjd_part">
-	                  <img class="ygsjd_img" src="static/images/ygsj_06.jpg"  alt="">
+	                  <img class="ygsjd_img" src="static/images/vt_product_10.png"  alt="">
 	                  <div class="ygsjd_introduce">
 	                     <img class="h3-img" src="static/images/vt_2017110601.png" alt="">
 	                     <a href="detail?i=0&id=cf69dca64f914659b9a04e7296c302a2" >
@@ -183,7 +184,7 @@
 	                  </div>
                  </div>
                    <div class="ygsjd_part">
-	                  <img class="ygsjd_img" src="static/images/ygsj_04.jpg"  alt="">
+	                  <img class="ygsjd_img" src="static/images/vt_product_12.png"  alt="">
 	                  <div class="ygsjd_introduce">
 	                     <img class="h3-img" src="static/images/vt_2017110601.png" alt="">
 	                     <a href="detail?i=0&id=7725eed578a64f3f821f37968b310c01" >
@@ -195,7 +196,7 @@
 	                  </div>
                  </div>
                    <div class="ygsjd_part">
-	                  <img class="ygsjd_img" src="static/images/ygsj_06.jpg" alt="">
+	                  <img class="ygsjd_img" src="static/images/vt_product_11.png" alt="">
 	                  <div class="ygsjd_introduce">
 	                     <img class="h3-img" src="static/images/vt_2017110601.png" alt="">
 	                     <a href="detail?i=0&id=6cdaedf723fd4ebbbde2e8171811f0de" >
@@ -211,7 +212,7 @@
             <div id="product3" class="product_hidden">
                <div class="ygsjd_section clearfix">
                 <div class="ygsjd_part">
-	                  <img class="ygsjd_img" src="static/images/ygsj_04.jpg" alt="">
+	                  <img class="ygsjd_img" src="static/images/vt_product_14.png" alt="">
 	                  <div class="ygsjd_introduce">
 	                     <img class="h3-img" src="static/images/vt_2017110601.png" alt="">
 	                     <a href="detail?i=0&id=6f7e5c714ecb48e7a3cb5398906a4ca9" >
@@ -223,7 +224,7 @@
 	                  </div>
                  </div>
                    <div class="ygsjd_part">
-	                  <img class="ygsjd_img" src="static/images/ygsj_06.jpg" alt="">
+	                  <img class="ygsjd_img" src="static/images/vt_product_16.png" alt="">
 	                  <div class="ygsjd_introduce">
 	                     <img class="h3-img" src="static/images/vt_2017110601.png" alt="">
 	                     <a href="detail?i=0&id=be134cde4e3a4bcba97bfd891828d1ca" >
@@ -235,7 +236,7 @@
 	                  </div>
                  </div>
                    <div class="ygsjd_part">
-	                  <img class="ygsjd_img" src="static/images/ygsj_04.jpg" alt="">
+	                  <img class="ygsjd_img" src="static/images/vt_product_15.png" alt="">
 	                  <div class="ygsjd_introduce">
 	                     <img class="h3-img" src="static/images/vt_2017110601.png" alt="">
 	                     <a href="detail?i=0&id=09d00d128ec6457bb9b6a696c6625463" >
@@ -251,7 +252,7 @@
             <div id="product4" class="product_hidden">
                <div class="ygsjd_section clearfix">
                 <div class="ygsjd_part">
-	                  <img class="ygsjd_img" src="static/images/ygsj_04.jpg" alt="">
+	                  <img class="ygsjd_img" src="static/images/vt_product_13.png" alt="">
 	                  <div class="ygsjd_introduce">
 	                     <img class="h3-img" src="static/images/vt_2017110601.png" alt="">
 	                     <a href="detail?i=0&id=a4ed01aa893e4f5c8ac0c2d7bce84880" >

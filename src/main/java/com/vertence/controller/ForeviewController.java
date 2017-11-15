@@ -94,7 +94,7 @@ public class ForeviewController {
     			"</span><br/><span style='font-size: 14px;color: #000;display: inline-block;margin-left: 20px;'>producttype:&nbsp;&nbsp;&nbsp;&nbsp;"+producttype+
     			"</span><br/><span style='font-size: 14px;color: #000;display: inline-block;margin-left: 20px;'>location:&nbsp;&nbsp;&nbsp;&nbsp;"+location+
     			"</span><br/><span style='font-size: 14px;color: #000;display: inline-block;margin-left: 20px;''>content:&nbsp;&nbsp;&nbsp;&nbsp;"+content+"</span>");
-    	mailInfo.setToAddress("879651180@qq.com");
+    	mailInfo.setToAddress("jean.wang@vertence.cn");
     	MailUtil.sendEmail(mailInfo);
 		return 1;
 	}

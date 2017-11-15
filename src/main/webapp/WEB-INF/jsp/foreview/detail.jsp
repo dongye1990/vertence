@@ -52,7 +52,7 @@
 						<a class="detail-imgs detail-download fl">Technical specification</a>
 				    </c:otherwise>
 				</c:choose>
-					<a href="" class="detail-imgs detail-share fl">Request information</a>
+					<a href="mail" class="detail-imgs detail-share fl">Request information</a>
 					<a href="" class="detail-icon detail-icon1 fl"></a>
 					<a href="" class="detail-icon detail-icon2 fl"></a>
 					<a href="" class="detail-icon detail-icon3 fl"></a>
