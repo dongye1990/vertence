@@ -24,7 +24,7 @@ jQuery(function($) {
 		          "sSortDescending": ": 以降序排列此列"  
 		      }  
 		  } ,
-		"aoColumns" : [ null,null, null, null, null, {
+		"aoColumns" : [ null,null, null, null, {
 			"bSortable" : false
 		} ]
 	});

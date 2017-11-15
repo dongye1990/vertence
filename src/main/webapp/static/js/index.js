@@ -158,6 +158,7 @@ $(function() {
             bsl = box.html().length,
             bwl = box.data('length');
         var nwl = bwl;
+        console.log(bsl);
         while(nwl-box.html().substring(0,nwl).replace(/[^0-9,a-z,A-Z]/ig,"").length/2<bwl){
             nwl+=box.html().substring(0,bwl).replace(/[^0-9,a-z,A-Z]/ig,"").length/2;
         }

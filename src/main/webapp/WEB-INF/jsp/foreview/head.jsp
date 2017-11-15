@@ -100,20 +100,20 @@
                         <a href="products?type=0" ><img class="nav_show" src="static/images/vt_2017082015.jpg" alt=""></a>
                         <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
                         <h4>Water Treatment Products</h4>
-                       <a href="detail?i=0&id=e3f7432008ed4cabaf99177fcb401f99" > <div class="nav_text">AUTOMATIC WATER SOFTENERS</div>
+                       <a href="detail?i=0&id=e3f7432008ed4cabaf99177fcb401f99" > <div class="nav_text">Automatic Water Softeners</div>
                        <a href="detail?i=0&id=af4f47f597ba468e8850128b5c552c64" > <div class="nav_text">Filters</div>
-                       <a href="detail?i=0&id=e452b26c421f4824a6820faf7f7d564e" > <div class="nav_text">RO SYSTEM</div>
-                       <a href="detail?i=0&id=e7d04a18a3db48cd82666aa6690e5408" > <div class="nav_text">EDI</div>
+                       <a href="detail?i=0&id=e452b26c421f4824a6820faf7f7d564e" > <div class="nav_text">Reverse Osmosis System</div>
+                       <a href="detail?i=0&id=e7d04a18a3db48cd82666aa6690e5408" > <div class="nav_text">EDI Ultra Purification Water Treatment Sytetm</div>
                      </div>
                      <div class="nav_list">
                         <a href="products?type=1" ><img class="nav_show" src="static/images/vt_2017082016.jpg" alt=""></a>
                         <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
                         <h4>Solar Power Products</h4>
-                       <a href="detail?i=0&id=5cb0505893954a4daab941a893e94715" > <div class="nav_text">Solar Power Station</div>
-                       <a href="detail?i=0&id=6bb681e085004d4da4be756894f9289d" > <div class="nav_text">Solar AC Pump</div>
-                       <a href="detail?i=0&id=cfda23fc4f5f4469926bf0cec6fcb8ce" > <div class="nav_text">Solar desalination plant</div>
-                       <a href="detail?i=0&id=80e20fad998445fcb218ddb44cc2bb63" > <div class="nav_text">Solar Irrigation System</div>
-                       <a href="detail?i=0&id=ed0e0299931c49fda88500a55e474126" > <div class="nav_text">Solar Power system Household</div>
+                       <a href="detail?i=0&id=5cb0505893954a4daab941a893e94715" > <div class="nav_text">Photovoltaic Power Station</div>
+                       <a href="detail?i=0&id=6bb681e085004d4da4be756894f9289d" > <div class="nav_text">Solar Powered submersible pump</div>
+                       <a href="detail?i=0&id=cfda23fc4f5f4469926bf0cec6fcb8ce" > <div class="nav_text">Solar Desalination System</div>
+                       <a href="detail?i=0&id=80e20fad998445fcb218ddb44cc2bb63" > <div class="nav_text">Solar Irrigation system</div>
+                       <a href="detail?i=0&id=ed0e0299931c49fda88500a55e474126" > <div class="nav_text">Complete Solar Power Systems</div>
                      </div>
                      <div class="nav_list">
                         <a href="products?type=2" ><img class="nav_show" src="static/images/vt_2017082017.jpg" alt=""></a>
@@ -121,8 +121,7 @@
                         <h4>Intelligent Farming</h4>
                        <a href="detail?i=0&id=f8f0141c96ad424bb92c680531d115cb" > <div class="nav_text">Agriculture IOT</div>
                        <a href="detail?i=0&id=cf69dca64f914659b9a04e7296c302a2" > <div class="nav_text">Intelligent Greenhouse System</div>
-                       <a href="detail?i=0&id=7725eed578a64f3f821f37968b310c01" > <div class="nav_text">Water saving irrigation project</div>
-                       <a href="detail?i=0&id=6cdaedf723fd4ebbbde2e8171811f0de" > <div class="nav_text">Desalination greenhouse</div>
+                       <a href="detail?i=0&id=7725eed578a64f3f821f37968b310c01" > <div class="nav_text">Water Saving Irrigation Project</div>
                      </div>
                      <div class="nav_list">
                         <a href="products?type=3" ><img class="nav_show" src="static/images/vt_2017082018.jpg" alt=""></a>
@@ -136,7 +135,7 @@
                          <a href="products?type=4" > <img class="nav_show" src="static/images/vt_2017082019.jpg" alt=""></a>
                         <img class="nav_sj" src="static/images/vt_2017073106.png" alt="">
                         <h4>Environmental Protect</h4>
-                        <a href="detail?i=0&id=a4ed01aa893e4f5c8ac0c2d7bce84880" ><div class="nav_text">Vegetable and farm waste biogas Power Plant</div>
+                        <a href="detail?i=0&id=a4ed01aa893e4f5c8ac0c2d7bce84880" ><div class="nav_text">Vegetable and farm waste biogas power plant</div>
                      </div>
                   </div>
                </div>
