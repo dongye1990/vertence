@@ -27,14 +27,14 @@
 	<!-- Shiro过滤器 -->
 	<bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">  
 	    <property name="securityManager" ref="securityManager"/>
-		<property name="loginUrl" value="/backend" />
+		<property name="loginUrl" value="/login" />
 		<property name="unauthorizedUrl" value="/static/error-404.html" />
 	    <property name="filterChainDefinitions">
 	        <value>  
-	              /**= anon
+	             /backend/** = authc 
 				 /backend/login = anon
 				 /backend/doLogin = anon
-	             /backend/** = authc 
+	              /**= anon
 	        </value>  
 	    </property>
 	</bean>  

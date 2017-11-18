@@ -32,7 +32,7 @@ import com.vertence.service.AttachmentService;
 @Controller
 @RequestMapping(value = "/backend/file")
 public class FileController {
-	private String filePath="/export/servers/tomcat-report/file";
+//	private String filePath="/export/servers/tomcat-report/file";
 	
 	@Autowired
 	private AttachmentService attachmentService;
@@ -51,7 +51,7 @@ public class FileController {
 	public String doUploadFile(@RequestParam("attrFile") MultipartFile attrFile,@RequestParam("foreignid") Integer foreignid,
 			@RequestParam("type") Integer type,HttpServletRequest request,
 			HttpServletResponse response) throws IOException {
-//		String filePath=request.getSession().getServletContext().getRealPath("/upload/file");
+		String filePath=request.getSession().getServletContext().getRealPath("/upload/file");
 		if(!new File(filePath).exists())   {
 		    new File(filePath).mkdirs();
 		  }
@@ -68,7 +68,7 @@ public class FileController {
 	}
     @RequestMapping(value = "/export")
     public void index(@RequestParam("id") Integer id,HttpServletRequest request, HttpServletResponse response){
-//		String filePath=request.getSession().getServletContext().getRealPath("/upload/file");
+		String filePath=request.getSession().getServletContext().getRealPath("/upload/file");
 		if(!new File(filePath).exists())   {
 		    new File(filePath).mkdirs();
 		  }
