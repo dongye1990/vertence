@@ -24,8 +24,8 @@
                      <img class="hd_down" src="static/images/vt_2017081000.png" alt="">
                   </a>
                   <div class="hd_second">
-                     <a href="javascript: void(window.open('http://translate.google.com/translate?u='+escape(location.href)+'&amp;langpair=en%7Czh-CN', 'English_to_Chinese', 'resizable,scrollbars,status'))">Translate Page To Chinese</a>
-                     <a href="javascript: void(window.open('http://translate.google.com/translate?u='+escape(location.href)+'&amp;langpair=en%7Cfr', 'English_to_French', 'resizable,scrollbars,status'))">Translate Page To French</a>
+                     <a href="javascript: void(window.open('http://translate.google.com/translate?u='+escape(location.href)+'&amp;langpair=en%7Czh-CN', 'English_to_Chinese', ''))" target="_blank">Translate Page To Chinese</a>
+                     <a href="javascript: void(window.open('http://translate.google.com/translate?u='+escape(location.href)+'&amp;langpair=en%7Cfr', 'English_to_French', ''))" target="_blank">Translate Page To French</a>
                   </div>
                </li>
             </ul>
