@@ -7,7 +7,7 @@
 <%@ include file="taglibs.jsp"%>
 <link href="${ctx}/static/css/login.css" rel="stylesheet"/>	
 <script src="${ctx}/static/js/login.js"></script>
-<title>vertenct</title>
+<title>vertence</title>
 </head>
 <body>
 	<div class="box">

@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <%@ include file="taglibs.jsp"%>
-<title>vertenct</title>
+<title>vertence</title>
 </head>
 <body style="min-width:1200px;">
   <%@include file="head.jsp" %>

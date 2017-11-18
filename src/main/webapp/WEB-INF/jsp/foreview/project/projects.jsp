@@ -7,7 +7,7 @@
 <%@ include file="../taglibs.jsp"%>
 <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBzE9xAESye6Kde-3hT-6B90nfwUkcS8Yw&sensor=false"></script>
 <script type="text/javascript"  src="${ctx}/static/js/googlemaps.js"></script>
-<title>vertenct</title>
+<title>vertence</title>
 </head>
 <body style="min-width: 1200px;">
 	<%@include file="../head.jsp"%>
