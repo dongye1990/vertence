@@ -7,8 +7,12 @@
    <div class="footer">
        <div class="container clearfix">
          <div class="fl ft_erweima">
+          <a href="https://zh-cn.facebook.com/chinavertence/" target="_blank" title="facebook">
             <img style="margin:20px 20px 0 0" src="static/images/footer_01.png" alt="">
+          </a> 
+          <a href="https://twitter.com/chinavertence" target="_blank" title="twitter">
             <img style="margin:20px 0px 0 0" src="static/images/footer_02.png" alt=""><br/>
+          </a> 
             <img style="margin:15px 20px 0 0" src="static/images/footer_03.png" alt="">
             <img style="margin:15px 0px 0 0" src="static/images/footer_04.png" alt="">
             <div></div>
