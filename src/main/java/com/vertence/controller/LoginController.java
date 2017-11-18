@@ -49,7 +49,7 @@ public class LoginController {
 		try {
 			subject.login(token);
 			Session session=subject.getSession();
-			session.setAttribute("username", "于总");
+			session.setAttribute("username", "jean.wang");
 			return 1;
 		} catch (Exception ex) {
 			return 0;

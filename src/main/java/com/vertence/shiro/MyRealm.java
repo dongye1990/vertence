@@ -1,6 +1,5 @@
 package com.vertence.shiro;
 
-import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
@@ -11,8 +10,8 @@ import org.apache.shiro.subject.PrincipalCollection;
 
 public class MyRealm extends AuthorizingRealm {
 
-	private static final String username = "admin";
-	private static final String password = "1234";
+	private static final String username = "jean";
+	private static final String password = "0zW7wyjGGBk7";
 
 	@Override
 	protected AuthorizationInfo doGetAuthorizationInfo(
