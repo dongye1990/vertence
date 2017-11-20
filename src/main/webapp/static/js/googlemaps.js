@@ -75,7 +75,7 @@ var projectsDetail = {
         lat:17.2682456,
         lng:24.325982,
         title:'Sudan_PV Project',
-        content:getText('c1a9767e74f145de807b1bae0d3684c0','map_sudanpv.jpg','Jiangu 4.8kW single-axis tracking system','Jiangu 4.8kW single-axis tracking system.')
+        content:getText('c1a9767e74f145de807b1bae0d3684c0','map_sudanpv.jpg','Sudan-Khartoum- 4.8KW Solar powered pumping system','Sudan-Khartoum- 4.8KW Solar powered pumping system.Size:150Wp; Location: Khartoum, Sudan;  Serial:W Serial; Quantity: 32 Pcs Panels, 3.5KW Pumping system;Foundation: Concrete;')
       },
     Sudan_Solar:{
         lat:15.1532057,
