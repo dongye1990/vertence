@@ -15,7 +15,7 @@ import com.vertence.model.News;
 /** 
  * @ClassName: NewsService 
  * @author dongye
- * @date 2017年9月2日 下午12:42:31  
+ * @date 2017骞�9鏈�2鏃� 涓嬪崍12:42:31  
  */
 @Service
 public class NewsService {

@@ -20,15 +20,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping(value = "")
 public class LoginController {
 	
-	@RequestMapping(value = "/login")
-	public String login() {
-		Subject currentUser = SecurityUtils.getSubject();
-		if (currentUser.isAuthenticated()) {
-			return "redirect:/backend/news/list";
-		} else {
-			return "/backend/login";
-		}
-	}
 	@RequestMapping(value = "/backend/main")
 	public String main() {
 		return "redirect:/backend/news/list";
@@ -42,14 +33,14 @@ public class LoginController {
 	}
 
 	@ResponseBody
-	@RequestMapping(value = "/doLogin")
-	public int doLogin(Model model,@RequestParam(value = "username") String username,@RequestParam(value = "password") String password,HttpServletRequest request) {
+	@RequestMapping(value = "/login")
+	public int login(Model model,@RequestParam(value = "email") String email,@RequestParam(value = "password") String password,HttpServletRequest request) {
 		Subject subject=SecurityUtils.getSubject();
-		UsernamePasswordToken token=new UsernamePasswordToken(username, password);
+		UsernamePasswordToken token=new UsernamePasswordToken(email, password);
 		try {
 			subject.login(token);
 			Session session=subject.getSession();
-			session.setAttribute("username", "jean.wang");
+			session.setAttribute("username", subject.getPrincipal());
 			return 1;
 		} catch (Exception ex) {
 			return 0;

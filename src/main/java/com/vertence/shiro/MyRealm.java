@@ -7,11 +7,17 @@ import org.apache.shiro.authc.SimpleAuthenticationInfo;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.vertence.model.User;
+import com.vertence.service.UserService;
 
 public class MyRealm extends AuthorizingRealm {
+	
+	
+	@Autowired
+	private UserService userService;
 
-	private static final String username = "jean";
-	private static final String password = "0zW7wyjGGBk7";
 
 	@Override
 	protected AuthorizationInfo doGetAuthorizationInfo(
@@ -24,8 +30,9 @@ public class MyRealm extends AuthorizingRealm {
 	protected AuthenticationInfo doGetAuthenticationInfo(
 			AuthenticationToken token) throws AuthenticationException {
 		String userName = (String) token.getPrincipal();
-		if (username.equals(userName)) {
-			return new SimpleAuthenticationInfo(username, password, "xx");
+		User user = userService.selectByEmail(userName);
+		if (user!=null) {
+			return new SimpleAuthenticationInfo(user.getEmail(), user.getPassword(), "xx");
 		} else {
 			return null;
 		}

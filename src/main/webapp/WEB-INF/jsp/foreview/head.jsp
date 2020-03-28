@@ -4,9 +4,8 @@
       <div class="container" style="min-width:800px;">
          <div class="clearfix">
             <ul class="top_ul fl clearfix">
-               <li><a href="detail?id=3ce8448b1aa044219eb63da2402803dd"  class="hd_link">Career</a></li>
-               <li class="hd_lbox">
-                  <a class="hd_link">Contact Us
+               <li><a href="detail?id=3ce8448b1aa044219eb63da2402803dd"  class="hd_link">About Us</a>
+                   <a class="hd_link">Contact Us
                      <img class="hd_down" src="static/images/vt_2017081000.png" alt="">
                   </a>
 
@@ -18,7 +17,31 @@
                      <div><a href="detail?id=6cdd8d248b8545048c0ace8ebe1a91dc" >Consultancy</a></div>
                   </div>
                </li>
-               <li><a href="detail?id=3ce8448b1aa044219eb83da2402803dd"  class="hd_link">Locations</a></li>
+               <li class="hd_lbox">
+                  <a class="hd_link">Contact Us
+                     <img class="hd_down" src="static/images/vt_2017081000.png" alt="">
+                  </a>
+                  <div class="hd_second">
+                     <div><a href="detail?id=b93e3d332ddd44cbbe465c860068efee" >Cooperation Relationship</a></div>
+                     <div><a href="detail?id=8c90498215ad460f88c889341227e8d3" >Sales Services</a></div>
+                     <div><a href="detail?id=928744818f834d06bc0ea06773a8cb0d" >After sale Services</a></div>
+                     <div><a href="detail?id=68fe09eb38cc49c5ba3d490e605a3c6a" >Investor</a></div>
+                     <div><a href="detail?id=6cdd8d248b8545048c0ace8ebe1a91dc" >Consultancy</a></div>
+                  </div>
+               </li>
+               <li><a href="detail?id=3ce8448b1aa044219eb83da2402803dd"  class="hd_link">Industry News</a></li>
+               <li class="hd_lbox">
+                  <a class="hd_link">Service
+                     <img class="hd_down" src="static/images/vt_2017081000.png" alt="">
+                  </a>
+                  <div class="hd_second">
+                     <div><a href="detail?id=b93e3d332ddd44cbbe465c860068efee" >Cooperation Relationship</a></div>
+                     <div><a href="detail?id=8c90498215ad460f88c889341227e8d3" >Sales Services</a></div>
+                     <div><a href="detail?id=928744818f834d06bc0ea06773a8cb0d" >After sale Services</a></div>
+                     <div><a href="detail?id=68fe09eb38cc49c5ba3d490e605a3c6a" >Investor</a></div>
+                     <div><a href="detail?id=6cdd8d248b8545048c0ace8ebe1a91dc" >Consultancy</a></div>
+                  </div>
+               </li>
                <li class="hd_lbox">
                   <a href="#" class="hd_link">language
                      <img class="hd_down" src="static/images/vt_2017081000.png" alt="">

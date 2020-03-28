@@ -35,11 +35,7 @@ public class ForeviewController {
 	@Autowired
 	private NewsService newsService;
 	@Autowired
-	private DetailService detailService;
-	@Autowired
 	private AttachmentService attachmentService;
-	@Autowired
-	private SearchService searchService;
 	
 	@RequestMapping(value = "/index")
 	public String main(Model model) {
@@ -48,9 +44,24 @@ public class ForeviewController {
 	@RequestMapping(value = "/")
 	public String index(Model model) {
 		Subject subject=SecurityUtils.getSubject();
-		List<News> newsList=newsService.listNews();
-		model.addAttribute("newsList", newsList);
-		return "/foreview/index";
+		return "/sinova/index";
+	}
+	@RequestMapping(value = "/page")
+	public String page(Model model,String page) {
+		Subject subject=SecurityUtils.getSubject();
+		return "/sinova/"+page;
+	}
+	@RequestMapping(value = "/product")
+	public String product(Model model,String product) {
+		return "/sinova/product/"+product;
+	}
+	@RequestMapping(value = "/sd")
+	public String sd(Model model,String id) {
+		return "/sinova/detail/"+id;
+	}
+	@RequestMapping(value = "/news")
+	public String news(Model model,String id) {
+		return "/sinova/news/"+id;
 	}
 	@RequestMapping(value = "/newsdetail")
 	public String index(Model model,int id) {
@@ -97,50 +108,5 @@ public class ForeviewController {
     	mailInfo.setToAddress("sales@vertence.cn");
     	MailUtil.sendEmail(mailInfo);
 		return 1;
-	}
-	@RequestMapping(value = "/products")
-	public String products(Model model,Integer type) {
-		model.addAttribute("type", type);
-		return "/foreview/product/products";
-	}
-	@RequestMapping(value = "/search")
-	public String search(Model model,String text) {
-		List<SearchVo> searchVoList=searchService.searchByParm(text);
-		for (SearchVo vo:searchVoList) {
-			vo.setTitle(vo.getTitle().replaceAll(text, "<span style='color:red'>"+text+"</span>"));
-			vo.setContent(Utils.delHTMLTag(vo.getContent()).replaceAll(text, "<span style='color:red'>"+text+"</span>"));
-		}
-		model.addAttribute("searchVoList", searchVoList);
-		return "/foreview/search/search";
-	}
-	@RequestMapping(value = "/searchDetail")
-	public String searchDetail(Model model,String id) {
-		model.addAttribute("id", id);
-		if(id.length()>15){
-			return "forward:/detail"; 
-		}else{
-			return "forward:/newsdetail"; 
-		}
-	}
-	@RequestMapping(value = "/detail")
-	public String detail(Model model,String id,String i) {
-		Detail detail=detailService.selectByDetailId(id);
-		if(detail!=null){
-			List<Attachment> attachmentList = attachmentService.selectByForeignid(detail.getId(),Attachment.detailType);
-			model.addAttribute("attachmentList", attachmentList);
-		}
-		model.addAttribute("detail", detail);
-		model.addAttribute("i", i);
-		return "/foreview/detail";
-	}
-	@RequestMapping(value = "/video")
-	public String video(Model model,String id) {
-		Detail detail=detailService.selectByDetailId(id);
-		if(detail!=null){
-			List<Attachment> attachmentList = attachmentService.selectByForeignid(detail.getId(),Attachment.detailType);
-			model.addAttribute("attachmentList", attachmentList);
-		}
-		model.addAttribute("detail", detail==null?new Detail():detail);
-		return "/foreview/video/video";
 	}
 }
