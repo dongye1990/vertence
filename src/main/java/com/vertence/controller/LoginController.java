@@ -22,7 +22,7 @@ public class LoginController {
 	
 	@RequestMapping(value = "/backend/main")
 	public String main() {
-		return "redirect:/backend/news/list";
+		return "redirect:/backend/user/list";
 	}
 	
 	@RequestMapping(value = "/backend/logout")
@@ -33,7 +33,7 @@ public class LoginController {
 	}
 
 	@ResponseBody
-	@RequestMapping(value = "/login")
+	@RequestMapping(value = "/doLogin")
 	public int login(Model model,@RequestParam(value = "email") String email,@RequestParam(value = "password") String password,HttpServletRequest request) {
 		Subject subject=SecurityUtils.getSubject();
 		UsernamePasswordToken token=new UsernamePasswordToken(email, password);
@@ -41,7 +41,11 @@ public class LoginController {
 			subject.login(token);
 			Session session=subject.getSession();
 			session.setAttribute("username", subject.getPrincipal());
-			return 1;
+			if(subject.getPrincipal().toString().startsWith("admin")) {
+				return 2;
+			}else {
+				return 1;
+			}
 		} catch (Exception ex) {
 			return 0;
 		}

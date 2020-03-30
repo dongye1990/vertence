@@ -13,20 +13,25 @@ import com.vertence.util.Utils;
 
 /** 
  * @author dongye
- * @date 2017年9月2日 下午12:41:16  
+ * @date 2017骞�9鏈�2鏃� 涓嬪崍12:41:16  
  */
 public class Detail {
 	private Integer id;
-	private String detailid;
+	private String order;
 	private String title;
-	private String content;
 	private Date createTime;
-	private String date;
+	private String time;
 	public Integer getId() {
 		return id;
 	}
 	public void setId(Integer id) {
 		this.id = id;
+	}
+	public String getOrder() {
+		return order;
+	}
+	public void setOrder(String order) {
+		this.order = order;
 	}
 	public String getTitle() {
 		return title;
@@ -34,30 +39,22 @@ public class Detail {
 	public void setTitle(String title) {
 		this.title = title;
 	}
-	public String getContent() {
-		return content;
-	}
-	public void setContent(String content) {
-		this.content = content;
-	}
+
 	public Date getCreateTime() {
 		return createTime;
 	}
 	public void setCreateTime(Date createTime) {
 		this.createTime = createTime;
 	}
-	public String getDetailid() {
-		return detailid;
+	public String getTime() {
+		return time;
 	}
-	public void setDetailid(String detailid) {
-		this.detailid = detailid;
-	}
-	public String getDate() {
-		return new DateTime(createTime).toString("yyyy-MM-dd");
+	public void setTime(String time) {
+		this.time = time;
 	}
 	
 	
-	
+
 	
 	
 }

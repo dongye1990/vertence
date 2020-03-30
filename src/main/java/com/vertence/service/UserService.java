@@ -3,6 +3,8 @@
  */
 package com.vertence.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -21,9 +23,14 @@ public class UserService {
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 	
+	public List<User> listAll(){
+		String sql="select * from sv_user ";
+		List<User> newsList= jdbcTemplate.query(sql, new Object[]{},new BeanPropertyRowMapper<User>(User.class));
+		return newsList;
+	}
+	
 	public User selectByEmail(String email){
 		String sql="select * from sv_user where email='"+email+"'";
-		System.out.println(sql);
 		User user= jdbcTemplate.query(sql, new Object[]{},new BeanPropertyRowMapper<User>(User.class)).get(0);
 		return user;
 	}

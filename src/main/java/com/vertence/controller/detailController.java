@@ -45,12 +45,12 @@ public class detailController {
 	}
 	@ResponseBody
 	@RequestMapping(value = "/edit")
-	public int edit(Integer id,Integer type,String detailid,String title,String content,Integer status) {
+	public int edit(Integer id,Integer type,String order,String title,String time) {
 		Detail detail=new Detail();
 		detail.setId(id);
-		detail.setDetailid(detailid);
+		detail.setOrder(order);
 		detail.setTitle(title);
-		detail.setContent(content);
+		detail.setTime(time);
 		int count=detailService.insertOrUpdate(detail);
 		return count;
 	}

@@ -72,12 +72,12 @@
                                     </div>
                                 </div>
                                 <div class="cart dropdown">
-                                    <div class="dropdown_link d-flex flex-row align-items-center justify-content-end" data-toggle="dropdown">
+                                    <div class="d-flex flex-row align-items-center justify-content-start">
                                         <div class="cart_icon">
                                             <i class="fa ti-truck"></i>
                                         </div>
                                         <div class="cart_content">
-                                            <div class="cart_text"><a href="#">Logistics</a></div>
+                                            <div class="cart_text"><a href="logistics">Logistics</a></div>
                                         </div>
                                     </div>
                                 </div>

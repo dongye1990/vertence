@@ -76,7 +76,7 @@
 		      $.ajax({  
 				type: "POST",  
 				async: true,
-				url: "login",  
+				url: "doLogin",  
 				data:$('#loginForm').serialize(),
 				dataType:'text',
 				success:function (data){

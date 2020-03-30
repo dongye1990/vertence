@@ -5,8 +5,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <%@ include file="../taglibs.jsp"%>
-<script src="${ctx}/static/js/backend-list.js"></script> 
-<title>sinova</title>
+<script src="${ctx}/static/js/news-list.js"></script> 
+<title>vertence</title>
 </head>
 <body>
 	<body>
@@ -15,46 +15,59 @@
 					<div class="page-content">
 						<div class="page-header">
 							<h1>
-								  状态管理
+								新闻列表
 								<small>
 									<i class="icon-double-angle-right"></i>
-									  状态列表
+									列表
 								</small>
 							</h1>
 						</div>
 						<div class="row">
 							<div class="col-xs-12">
 										<div class="table-responsive">
-										<div class="cl pd-5 bg-1 bk-gray"> <span class="l">  
-										<a class="btn btn-primary radius" href="javascript:;" onclick="add()" >
-										<i class="icon-bullhorn"></i>状态新增</a> </span>  </div>
+										<div class="cl pd-5 bg-1 bk-gray"> 
 										<table id="hexin-table" class="table table-striped table-bordered table-hover">
 												<thead>
 													<tr>
-														<th width="10%">ID</th>
-														<th width="20%">订单号</th>
-														<th>说明</th>
-														<th width="20%">显示更新时间</th>
-														<th width="20%">创建时间</th>
-														<th width="15%">操作</th>
+														<th>标题</th>
+														<th width="17%">修改时间</th>
+														<th width="17%">创建时间</th>
+														<th width="14%">操作</th>
 													</tr>
 												</thead>
 												<tbody>
-													<c:forEach items="${detailList }" var="d">
+													<c:forEach items="${newsList }" var="d">
 													<tr>
 														<td>${d.id }</td>
-														<td>${d.order }</td>
 														<td>${d.title }</td>
-														<td>${d.time }</td>
+														<td><fmt:formatDate value="${d.updateTime }" pattern="yyyy-MM-dd HH:mm:ss"/></td>
 														<td><fmt:formatDate value="${d.createTime }" pattern="yyyy-MM-dd HH:mm:ss"/></td>
+														<td>
+															<c:choose>  
+															    <c:when test="${d.status=='0'}">  
+															         <span class="label label-warning">隐&nbsp;藏</span>
+															     </c:when>  
+															    <c:when test="${d.status=='1'}">  
+															         <span class="label label-success">正&nbsp;常</span>
+															    </c:when>  
+															    <c:when test="${d.status=='2'}">  
+															         <span class="label label-info">置&nbsp;顶</span>
+															    </c:when>  
+															</c:choose>  
+														</td>
+														
 														<td class="td-manage">
 															<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
+																<a class="blue" onclick="view(${d.id },${d.title })"  title="查看">
+																	<i class="icon-zoom-in bigger-150"></i>
+																</a>
+																&nbsp;
 																<a class="green" onclick="edit(${d.id })"  title="修改">
 																	<i class="icon-pencil bigger-150"></i>
 																</a>
 																&nbsp;
 																<a class="green" onclick="del(this,${d.id })"  title="删除">
-																	<i class="icon-trash bigger-150 icon-danger"></i>
+																	<i class="icon-trash bigger-150"></i>
 																</a>
 															</div>
 														</td>

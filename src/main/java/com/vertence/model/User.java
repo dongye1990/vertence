@@ -3,6 +3,8 @@
  */
 package com.vertence.model;
 
+import java.util.Date;
+
 /** 
  * @ClassName: News 
  * @author dongye
@@ -14,6 +16,7 @@ public class User {
 	private String email;
 	private String phone;
 	private String password;
+	private Date createTime;
 	public Integer getId() {
 		return id;
 	}
@@ -44,6 +47,13 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+	public Date getCreateTime() {
+		return createTime;
+	}
+	public void setCreateTime(Date createTime) {
+		this.createTime = createTime;
+	}
+
 	
 	
 

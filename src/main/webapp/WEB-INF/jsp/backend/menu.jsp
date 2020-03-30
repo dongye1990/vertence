@@ -4,8 +4,8 @@
 <div class="navbar navbar-default" id="navbar">
 	<div class="navbar-container" id="navbar-container">
 		<div class="navbar-header pull-left">
-			<a href="#" class="navbar-brand"> <small> <i
-					class="icon-leaf"></i> vertence
+			<a href="../../" class="navbar-brand"> <small> <i
+					class="icon-leaf"></i> Sinova
 			</small>
 			</a>
 		</div>
@@ -40,27 +40,24 @@
 				</a></li>
 				<li>
 					 <a href="#" class="dropdown-toggle"> 
-					     <i class="icon-desktop"></i><span class="menu-text"> 新闻管理 </span><b class="arrow icon-angle-down"></b>
+					     <i class="icon-desktop"></i><span class="menu-text"> 用户管理 </span><b class="arrow icon-angle-down"></b>
 					 </a>
 					<ul class="submenu" style="display: block;">
 						<li>
-							<a href="${ctx}/backend/news/list"> <i class="icon-double-angle-right"></i>新闻列表</a>
-						</li>
-						<li>
-							<a href="${ctx}/backend/news/toAdd?index=0"> <i class="icon-double-angle-right"></i>新闻新增</a>
+							<a href="${ctx}/backend/user/list"> <i class="icon-double-angle-right"></i>新闻列表</a>
 						</li>
 					</ul>
 				</li>
 				<li>
 					 <a href="#" class="dropdown-toggle"> 
-					     <i class="icon-list"></i><span class="menu-text">详情页 </span><b class="arrow icon-angle-down"></b>
+					     <i class="icon-list"></i><span class="menu-text">状态</span><b class="arrow icon-angle-down"></b>
 					 </a>
 					<ul class="submenu" style="display: block;">
 						<li>
-							<a href="${ctx}/backend/detail/list"> <i class="icon-double-angle-right"></i>页面列表</a>
+							<a href="${ctx}/backend/detail/list"> <i class="icon-double-angle-right"></i>状态列表</a>
 						</li>
 						<li>
-							<a href="${ctx}/backend/detail/toAdd?index=0"> <i class="icon-double-angle-right"></i>页面新增</a>
+							<a href="${ctx}/backend/detail/toAdd?index=0"> <i class="icon-double-angle-right"></i>状态新增</a>
 						</li>
 					</ul>
 				</li>

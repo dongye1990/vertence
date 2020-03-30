@@ -36,6 +36,8 @@ public class ForeviewController {
 	private NewsService newsService;
 	@Autowired
 	private AttachmentService attachmentService;
+	@Autowired
+	private DetailService detailService;
 	
 	@RequestMapping(value = "/index")
 	public String main(Model model) {
@@ -51,6 +53,11 @@ public class ForeviewController {
 		Subject subject=SecurityUtils.getSubject();
 		return "/sinova/"+page;
 	}
+	@RequestMapping(value = "/login")
+	public String page(Model model) {
+		Subject subject=SecurityUtils.getSubject();
+		return "/sinova/login";
+	}
 	@RequestMapping(value = "/product")
 	public String product(Model model,String product) {
 		return "/sinova/product/"+product;
@@ -62,6 +69,22 @@ public class ForeviewController {
 	@RequestMapping(value = "/news")
 	public String news(Model model,String id) {
 		return "/sinova/news/"+id;
+	}
+	@RequestMapping(value = "/logistics")
+	public String logistics(Model model) {
+		Subject subject=SecurityUtils.getSubject();
+		if(subject.isAuthenticated()) {
+			return "/sinova/detail/logistics";
+		}else {
+			return "/sinova/login";
+		}
+	}
+	@RequestMapping(value = "/search")
+	public Object search(Model model,String order) {
+		List<Detail> detailList = detailService.selectByDetailId(order);
+		model.addAttribute("detailList", detailList);
+		model.addAttribute("order", order);
+		return "/sinova/detail/logistics";
 	}
 	@RequestMapping(value = "/newsdetail")
 	public String index(Model model,int id) {

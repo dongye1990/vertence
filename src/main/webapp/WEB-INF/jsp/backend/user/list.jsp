@@ -15,52 +15,36 @@
 					<div class="page-content">
 						<div class="page-header">
 							<h1>
-								  状态管理
+								用户管理
 								<small>
 									<i class="icon-double-angle-right"></i>
-									  状态列表
+									用户列表
 								</small>
 							</h1>
 						</div>
 						<div class="row">
 							<div class="col-xs-12">
 										<div class="table-responsive">
-										<div class="cl pd-5 bg-1 bk-gray"> <span class="l">  
-										<a class="btn btn-primary radius" href="javascript:;" onclick="add()" >
-										<i class="icon-bullhorn"></i>状态新增</a> </span>  </div>
 										<table id="hexin-table" class="table table-striped table-bordered table-hover">
 												<thead>
 													<tr>
-														<th width="10%">ID</th>
-														<th width="20%">订单号</th>
-														<th>说明</th>
-														<th width="20%">显示更新时间</th>
+														<th>id</th>
+														<th>姓名</th>
+														<th width="30%">电话</th>
+														<th width="30%">email</th>
 														<th width="20%">创建时间</th>
-														<th width="15%">操作</th>
 													</tr>
 												</thead>
 												<tbody>
-													<c:forEach items="${detailList }" var="d">
+													<c:forEach items="${userList }" var="d">
 													<tr>
 														<td>${d.id }</td>
-														<td>${d.order }</td>
-														<td>${d.title }</td>
-														<td>${d.time }</td>
+														<td>${d.name }</td>
+														<td>${d.phone }</td>
+														<td>${d.email }</td>
 														<td><fmt:formatDate value="${d.createTime }" pattern="yyyy-MM-dd HH:mm:ss"/></td>
-														<td class="td-manage">
-															<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
-																<a class="green" onclick="edit(${d.id })"  title="修改">
-																	<i class="icon-pencil bigger-150"></i>
-																</a>
-																&nbsp;
-																<a class="green" onclick="del(this,${d.id })"  title="删除">
-																	<i class="icon-trash bigger-150 icon-danger"></i>
-																</a>
-															</div>
-														</td>
 													</tr>
 													</c:forEach>
-												</tbody>
 												</tbody>
 											</table>
 										</div>

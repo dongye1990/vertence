@@ -262,10 +262,10 @@
                                             </div>
                                             <div class="featured-content">
                                                 <div class="featured-title">
-                                                    <h5>免费送货</h5>
+                                                    <h5>Consignment Traceable</h5>
                                                 </div>
                                                 <div class="featured-desc">
-                                                    <p>订单一些说明</p>
+                                                    <p>一句话描述</p>
                                                 </div>
                                             </div>
                                         </div><!-- featured-icon-box end-->
@@ -280,7 +280,7 @@
                                             </div>
                                             <div class="featured-content">
                                                 <div class="featured-title">
-                                                    <h5>物超所值</h5>
+                                                    <h5>Cost Effective</h5>
                                                 </div>
                                                 <div class="featured-desc">
                                                     <p>一句话描述</p>

@@ -5,6 +5,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <%@ include file="../taglibs.jsp"%>
+<link rel="stylesheet" type="text/css" href="${ctx}/static/ueditor1_4_3/themes/default/css/ueditor.css" />
+<script type="text/JavaScript" src="${ctx}/static/ueditor1_4_3/ueditor.config.js"></script>
+<script type="text/javascript" src="${ctx}/static/ueditor1_4_3/ueditor.all.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="${ctx}/static/ueditor1_4_3/lang/zh-cn/zh-cn.js"></script>
 <script src="${ctx}/static/js/backend-edit.js"></script> 
 <title>sinova</title>
 </head>
@@ -19,12 +23,12 @@
 	 <div class="page-content">
 		<div class="page-header">
 			<h1>
-				状态管理 <small> <i class="icon-double-angle-right"></i>
+				新闻管理 <small> <i class="icon-double-angle-right"></i>
 				<c:if test="${index==0}">
-					状态新增
+					新增新闻
 				</c:if>
 				<c:if test="${index==1}">
-					状态修改
+					修改新闻
 				</c:if>
 				</small>
 			</h1>
@@ -33,29 +37,43 @@
 			<div class="col-xs-12">
 				<form class="form-horizontal" role="form" id="formId">
 					<input type="hidden" name="index" value="${index}">
-					<input type="hidden" name="id" value="${detail.id}">
+					<input type="hidden" name="id" value="${news.id}">
+					<input type="hidden" name="content" id="content" value='${news.content}'>
 					<div class="space-4"></div>
 					<div class="form-group">
 						<label class="col-sm-2 control-label no-padding-right"
-							for="form-field-2"> 订单号： </label>
+							for="form-field-2"> 标题： </label>
 						<div class="col-sm-9">
-							<input type="text" id="form-field-2" name="order" placeholder="请输入订单号" value="${detail.order}" class="col-xs-10 col-sm-10" /> 
+							<input type="text" id="form-field-2" name="title" placeholder="请输入标题" value="${news.title}" class="col-xs-10 col-sm-10" /> 
 						</div>
 					</div>
 					<div class="space-4"></div>
-					<div class="form-group">
+							<div class="form-group">
 						<label class="col-sm-2 control-label no-padding-right"
-							for="form-field-2"> 说明： </label>
+							for="form-field-2"> 状态： </label>
 						<div class="col-sm-9">
-							<input type="text" id="form-field-2" name="title" placeholder="请输入标题" value="${detail.title}" class="col-xs-10 col-sm-10" /> 
+							<select class="width-40 chosen-select" id="form-field-select-3" name="status"  data-placeholder="请选择状态...">
+								<option value="1" selected>正常</option>
+								<option value="2" >置顶</option>
+								<option value="3" >隐藏</option>
+							</select>
 						</div>
 					</div>
+					<script>
+					if("${news.status}"==0){
+						$($("option")[3]).attr("selected",true);
+					}else if("${news.status}"==1){
+						$($("option")[0]).attr("selected",true);
+					}else if("${news.status}"==2){
+						$($("option")[1]).attr("selected",true);
+					}else if("${news.status}"==3){
+						$($("option")[3]).attr("selected",true);
+					}
+					</script>
+					<div class="space-4"></div>
 					<div class="form-group">
-						<label class="col-sm-2 control-label no-padding-right"
-							for="form-field-2"> 显示时间： </label>
-						<div class="col-sm-9">
-							<input type="text" id="form-field-2" name="time" placeholder="请输入时间" value="${detail.time}" class="col-xs-10 col-sm-10" /> 
-						</div>
+						 <label class="col-sm-2 control-label no-padding-right" for="form-field-tags"> 正文： </label>
+					     <script id="editor" type="text/plain" style="width:1024px;height:400px;margin-left:18%"></script>
 					</div>
 					<div class="space-4"></div>
 					<div class="form-group">
