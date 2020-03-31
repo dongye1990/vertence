@@ -13,7 +13,7 @@
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-5 widget-area m-auto">
                             <div class="widget ttm-footer-cta-wrapper">
-                                <form id="subscribe-form" class="newsletter-form" method="post" action="#" data-mailchimp="true">
+                                <form id="subscribe-form" class="newsletter-form" method="post" action="/toRegister" data-mailchimp="true">
                                     <div class="mailchimp-inputbox clearfix" id="subscribe-content"> 
                                         <p>
                                             <i class="fa fa-envelope-o" style="margin-top: 0;"></i>

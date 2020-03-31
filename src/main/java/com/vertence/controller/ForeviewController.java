@@ -53,6 +53,11 @@ public class ForeviewController {
 		Subject subject=SecurityUtils.getSubject();
 		return "/sinova/"+page;
 	}
+	@RequestMapping(value = "/toRegister")
+	public String toRegister(Model model,String email) {
+		model.addAttribute("email", email);
+		return "/sinova/register";
+	}
 	@RequestMapping(value = "/login")
 	public String page(Model model) {
 		Subject subject=SecurityUtils.getSubject();
@@ -111,25 +116,5 @@ public class ForeviewController {
 	@RequestMapping(value = "/mail")
 	public String mail() {
 		return "/foreview/mail/mail";
-	}
-	@ResponseBody
-	@RequestMapping(value = "/mainSend")
-	public int edit(String name,String gender,String country,String city,
-			String companyName,String email,String producttype,String location,String content) {
-    	MailInfo mailInfo=new MailInfo();
-    	mailInfo.setSubject((new DateTime()).toString("yyyyMMddHHmmss")+"-"+producttype+"-"+location);
-    	mailInfo.setContent("<span style='font-size: 20px;font-weight: bold;display: inline-block;margin-left: 25px;'>Email support</span><br/>"+
-    			"<span style='font-size: 14px;color: #000;display: inline-block;margin-left: 20px;'>Name:&nbsp;&nbsp;&nbsp;&nbsp;"+name+
-    			"</span><br/><span style='font-size: 14px;color: #000;display: inline-block;margin-left: 20px;'>gender:&nbsp;&nbsp;&nbsp;&nbsp;"+gender+
-    			"</span><br/><span style='font-size: 14px;color: #000;display: inline-block;margin-left: 20px;'>country:&nbsp;&nbsp;&nbsp;&nbsp;"+country+
-    			"</span><br/><span style='font-size: 14px;color: #000;display: inline-block;margin-left: 20px;'>city:&nbsp;&nbsp;&nbsp;&nbsp;"+city+
-    			"</span><br/><span style='font-size: 14px;color: #000;display: inline-block;margin-left: 20px;'>companyName:&nbsp;&nbsp;&nbsp;&nbsp;"+companyName+
-    			"</span><br/><span style='font-size: 14px;color: #000;display: inline-block;margin-left: 20px;'>email:&nbsp;&nbsp;&nbsp;&nbsp;"+email+
-    			"</span><br/><span style='font-size: 14px;color: #000;display: inline-block;margin-left: 20px;'>producttype:&nbsp;&nbsp;&nbsp;&nbsp;"+producttype+
-    			"</span><br/><span style='font-size: 14px;color: #000;display: inline-block;margin-left: 20px;'>location:&nbsp;&nbsp;&nbsp;&nbsp;"+location+
-    			"</span><br/><span style='font-size: 14px;color: #000;display: inline-block;margin-left: 20px;''>content:&nbsp;&nbsp;&nbsp;&nbsp;"+content+"</span>");
-    	mailInfo.setToAddress("sales@vertence.cn");
-    	MailUtil.sendEmail(mailInfo);
-		return 1;
 	}
 }

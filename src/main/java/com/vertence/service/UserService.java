@@ -31,12 +31,18 @@ public class UserService {
 	
 	public User selectByEmail(String email){
 		String sql="select * from sv_user where email='"+email+"'";
-		User user= jdbcTemplate.query(sql, new Object[]{},new BeanPropertyRowMapper<User>(User.class)).get(0);
+		List<User> query = jdbcTemplate.query(sql, new Object[]{},new BeanPropertyRowMapper<User>(User.class));
+		User user= (query==null||query.isEmpty())?null:query.get(0);
 		return user;
 	}
 	public int insert(User user){
 		String sql="INSERT INTO sv_user(name,email,phone,password,create_time) VALUES ('"+user.getName()+"','"+user.getEmail()+"',"
 				+ "'"+user.getPhone()+"','"+user.getPassword()+"',SYSDATE())";
+		return jdbcTemplate.update(sql);
+	}
+	
+	public int del(Integer id){
+		String sql="delete from sv_user where id="+id;
 		return jdbcTemplate.update(sql);
 	}
 
