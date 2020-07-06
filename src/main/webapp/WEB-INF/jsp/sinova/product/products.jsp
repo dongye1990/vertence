@@ -9,7 +9,11 @@
 </head>
 <body style="min-width:1200px;">
    <%@include file="../head.jsp" %>
+           <div class="ttm-page-title-row">
+           <div class="container">
+                <div class="row">
 ${news.content }
+</div></div></div>
    <%@include file="../footer.jsp" %>
 </body>
 </html>

@@ -65,7 +65,8 @@ public class ForeviewController {
 	}
 	@RequestMapping(value = "/product")
 	public String product(Model model,String product) {
-		return "/sinova/product/"+product;
+		model.addAttribute("news", newsService.selectByPrimaryKey(36));
+		return "/sinova/product/products";
 	}
 	@RequestMapping(value = "/sd")
 	public String sd(Model model,String id) {

@@ -63,10 +63,10 @@
 																<a class="blue" onclick="view(${d.id },'${d.title }')"  title="查看">
 																	<i class="icon-zoom-in bigger-150"></i>
 																</a>
-																&nbsp;
-																<a class="green" onclick="upload(${d.id },0)"  title="上传附件">
-																	<i class="icon-cloud-upload bigger-150"></i>
-																</a>
+<!-- 																&nbsp; -->
+<%-- 																<a class="green" onclick="upload(${d.id },0)"  title="上传附件"> --%>
+<!-- 																	<i class="icon-cloud-upload bigger-150"></i> -->
+<!-- 																</a> -->
 																&nbsp;
 																<a class="green" onclick="edit(${d.id })"  title="修改">
 																	<i class="icon-pencil bigger-150"></i>
