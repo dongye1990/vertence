@@ -61,6 +61,19 @@
 						</li>
 					</ul>
 				</li>
+				<li>
+					 <a href="#" class="dropdown-toggle"> 
+					     <i class="icon-list"></i><span class="menu-text">新闻</span><b class="arrow icon-angle-down"></b>
+					 </a>
+					<ul class="submenu" style="display: block;">
+						<li>
+							<a href="${ctx}/backend/news/list"> <i class="icon-double-angle-right"></i>新闻列表</a>
+						</li>
+						<li>
+							<a href="${ctx}/backend/news/toAdd?index=0"> <i class="icon-double-angle-right"></i>新闻新增</a>
+						</li>
+					</ul>
+				</li>
 			</ul>
 			<div class="sidebar-collapse" id="sidebar-collapse">
 				<i class="icon-double-angle-left"
