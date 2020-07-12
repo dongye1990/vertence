@@ -18,6 +18,7 @@ import com.vertence.model.News;
 import com.vertence.service.AttachmentService;
 import com.vertence.service.DetailService;
 import com.vertence.service.NewsService;
+import com.vertence.service.ProductService;
 import com.vertence.service.SearchService;
 import com.vertence.util.MailUtil;
 import com.vertence.util.Utils;
@@ -35,6 +36,8 @@ public class ForeviewController {
 	@Autowired
 	private NewsService newsService;
 	@Autowired
+	private ProductService productService;
+	@Autowired
 	private AttachmentService attachmentService;
 	@Autowired
 	private DetailService detailService;
@@ -46,6 +49,8 @@ public class ForeviewController {
 	@RequestMapping(value = "/")
 	public String index(Model model) {
 		Subject subject=SecurityUtils.getSubject();
+		List<News> newsList=newsService.listNews();
+		model.addAttribute("newsList", newsList);
 		return "/sinova/index";
 	}
 	@RequestMapping(value = "/page")
@@ -64,17 +69,22 @@ public class ForeviewController {
 		return "/sinova/login";
 	}
 	@RequestMapping(value = "/product")
-	public String product(Model model,String product) {
-		model.addAttribute("news", newsService.selectByPrimaryKey(36));
+	public String product(Model model,Integer product) {
+		model.addAttribute("news", productService.selectByPrimaryKey(product));
 		return "/sinova/product/products";
 	}
 	@RequestMapping(value = "/sd")
 	public String sd(Model model,String id) {
+		if("news".equals(id)) {
+			List<News> newsList=newsService.listNews(null);
+			model.addAttribute("newsList", newsList);
+		}
 		return "/sinova/detail/"+id;
 	}
 	@RequestMapping(value = "/news")
-	public String news(Model model,String id) {
-		return "/sinova/news/"+id;
+	public String news(Model model,Integer id) {
+		model.addAttribute("news", newsService.selectByPrimaryKey(id));
+		return "/sinova/product/products";
 	}
 	@RequestMapping(value = "/logistics")
 	public String logistics(Model model) {

@@ -10,6 +10,7 @@ import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 
+import com.vertence.model.News;
 import com.vertence.model.User;
 
 /** 
@@ -24,25 +25,35 @@ public class UserService {
 	private JdbcTemplate jdbcTemplate;
 	
 	public List<User> listAll(){
-		String sql="select * from sv_user ";
+		String sql="select * from sv_user order by id desc";
 		List<User> newsList= jdbcTemplate.query(sql, new Object[]{},new BeanPropertyRowMapper<User>(User.class));
 		return newsList;
 	}
 	
 	public User selectByEmail(String email){
-		String sql="select * from sv_user where email='"+email+"'";
+		String sql="select * from sv_user where status=1 and email='"+email+"'";
 		List<User> query = jdbcTemplate.query(sql, new Object[]{},new BeanPropertyRowMapper<User>(User.class));
 		User user= (query==null||query.isEmpty())?null:query.get(0);
 		return user;
 	}
 	public int insert(User user){
-		String sql="INSERT INTO sv_user(name,email,phone,password,create_time) VALUES ('"+user.getName()+"','"+user.getEmail()+"',"
-				+ "'"+user.getPhone()+"','"+user.getPassword()+"',SYSDATE())";
+		String sql="INSERT INTO sv_user(name,email,phone,password,remark,status,create_time) VALUES ('"+user.getName()+"','"+user.getEmail()+"',"
+				+ "'"+user.getPhone()+"','"+user.getPassword()+"','"+user.getRemark()+"',0,SYSDATE())";
 		return jdbcTemplate.update(sql);
 	}
 	
 	public int del(Integer id){
 		String sql="delete from sv_user where id="+id;
+		return jdbcTemplate.update(sql);
+	}
+	
+	public User selectByPrimaryKey(int id){
+		String sql="select * from sv_user where id="+id;
+		User news= jdbcTemplate.query(sql, new Object[]{},new BeanPropertyRowMapper<User>(User.class)).get(0);
+		return news;
+	}
+	public int insertOrUpdate(User user){
+		String sql="update sv_user set status="+user.getStatus()+" where id="+user.getId();
 		return jdbcTemplate.update(sql);
 	}
 

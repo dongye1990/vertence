@@ -15,6 +15,8 @@ public class User {
 	private String name;
 	private String email;
 	private String phone;
+	private String remark;
+	private int status;
 	private String password;
 	private Date createTime;
 	public Integer getId() {
@@ -53,6 +55,19 @@ public class User {
 	public void setCreateTime(Date createTime) {
 		this.createTime = createTime;
 	}
+	public String getRemark() {
+		return remark;
+	}
+	public void setRemark(String remark) {
+		this.remark = remark;
+	}
+	public int getStatus() {
+		return status;
+	}
+	public void setStatus(int status) {
+		this.status = status;
+	}
+	
 
 	
 	

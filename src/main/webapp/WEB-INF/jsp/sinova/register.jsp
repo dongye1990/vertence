@@ -62,6 +62,10 @@
                                     <i class="fa fa-phone"></i>
                                     <input name="phone" type="text" placeholder="Cell Phone"/>     
                                 </div>
+                                <div class="form-group" id="remark" style="display:none">
+                                    <i class="fa fa-address-book"></i>
+                                    <input name="remark" type="text" placeholder="Job Description"/>     
+                                </div>
                                 <div class="form-group" id="username">
                                     <button id="login-button" class="button action-button expand-center mb-15" type='button' style="display:none">
                                         <span class="label" id="login_submit">Register</span>
@@ -117,6 +121,7 @@
 				     $("#password").show();
 				     $("#phone").show();
 				     $("#code").show();
+				     $("#remark").show();
 				     $("#login-button").show();
 					alert("send verification code success!");
 				}

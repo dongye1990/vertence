@@ -96,74 +96,182 @@
                                     <div class="cat_menu_container">
                                         <a href="#" class="cat_menu d-flex flex-row align-items-center">
                                             <div class="cat_icon"><i class="fa fa-bars"></i></div>
-                                            <div class="cat_text"><span>Products by</span><h4>Categories</h4></div>
+                                            <div class="cat_text"><span>Spares by</span><h4>Categories</h4></div>
                                         </a>
                                         <ul class="cat_menu_list menu-vertical">
                                             <li><a href="#" class="close-side"><i class="fa fa-times"></i></a></li>
-											<li class="parent"><a href="#">Pellet Mill Spares</a>
-												<div class="sub-menu megamenu column3">
-													<ul class="list-unstyled childs_1">
-														<li class="title"><a href="product?product=dies">Dies</a></li>
-														<li class="title"><a href="product?product=rollerShells">Roller Shells</a></li>
-													</ul>
-												</div>
-											</li>
-                                            <li class="parent"><a href="#">Extruder Spares</a>
-												<div class="sub-menu megamenu column3">
-													<ul class="list-unstyled childs_1">
-														<li class="title"><a href="product?product=screw">Screw</a></li>
-														<li class="title"><a href="product?product=dischargingDiePlate">Discharging Die Plate</a></li>
-														<li class="title"><a href="product?product=extrudingChamber">Extruding Chamber</a></li>
-													</ul>
-												</div>
-											</li>
-                                            <li class="parent"><a href="#">Hammer Mill Spares</a>
-												<div class="sub-menu megamenu column3">
-													<ul class="list-unstyled childs_1">
-														<li class="title"><a href="product?product=hammer">Hammer(Tungsten Carbide Enhanced)</a></li>
-														<li class="title"><a href="product?product=highIntensityHammer">High Intensity Hammer</a></li>
-														<li class="title"><a href="product?product=screenSheet">Screen Sheet</a></li>
-													</ul>
-												</div>
-											</li>
-                                            <li class="parent"><a href="#">Pulverizer Spares</a>
-												<div class="sub-menu megamenu column3">
-													<ul class="list-unstyled childs_1">
-														<li class="title"><a href="product?product=beater">Beater</a></li>
-														<li class="title"><a href="product?product=atomizerBeater">Atomizer Beater</a></li>
-														<li class="title"><a href="product?product=toothRing">Tooth Ring</a></li>
-													</ul>
-												</div>
-											</li>
-                                            <li class="parent"><a href="#">Bucket Elevator Spares</a>
-												<div class="sub-menu megamenu column3">
-													<ul class="list-unstyled childs_1">
-														<li class="title"><a href="product?product=bucket">Bucket</a></li>
-														<li class="title"><a href="product?product=belt">Belt</a></li>
-														<li class="title"><a href="product?product=">Bolt</a></li>
-													</ul>
-												</div>
-											</li>
-                                            <li class="parent"><a href="#">Conveyor Spares</a>
-												<div class="sub-menu megamenu column3">
-													<ul class="list-unstyled childs_1">
-														<li class="title"><a href="product?product=flight">Flight</a></li>
-														<li class="title"><a href="product?product=">Chain</a></li>
-														<li class="title"><a href="product?product=">Imperial Roller Chain</a></li>
-														<li class="title"><a href="product?product=">Integral Attachment Roller Chain F Series</a></li>
-														<li class="title"><a href="product?product=drag">Drag</a></li>
-													</ul>
-												</div>
-											</li>
-                                            <li class="parent"><a href="#">Supplements</a>
-												<div class="sub-menu megamenu column3">
-													<ul class="list-unstyled childs_1">
-														<li class="title"><a href="#">Gearbox</a></li>
-														<li class="title"><a href="#">Level Indicator Rotary Paddle Level Switch</a></li>
-														<li class="title"><a href="#">Photoelectric Level Switch</a></li>
-													</ul>
-												</div>
-											</li>
+                                            <li class="parent">
+                                                <a href="#">Pellet Mill Spares</a>
+                                                <div class="sub-menu megamenu column3">
+                                                    <ul class="list-unstyled childs_1">
+                                                        <li class="title"><a href="#">Pellet Die</a>
+                                                            <div class="sub-menu">
+                                                                <ul class="list-unstyled childs_2">
+                                                                    <li><a href="product?product=1">Pellet Mill Flat Die</a></li>
+                                                                    <li><a href="product?product=2">Pellet Mill Ring Die</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-unstyled childs_1">
+                                                        <li class="title"><a href="#">Roller Shell</a>
+                                                            <div class="sub-menu">
+                                                                <ul class="list-unstyled childs_2">
+                                                                    <li><a href="product?product=3">Open end Grooved Roller Shell</a></li>
+                                                                    <li><a href="product?product=4">Closed end Grooved Roller Shell</a></li>
+                                                                    <li><a href="product?product=5">Deflective Grooved Roller Shell</a></li>
+                                                                    <li><a href="product?product=6">Dimpled Roller Shell</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="parent">
+                                                <a href="#">Extruder Spare Parts</a>
+                                                <div class="sub-menu megamenu column3">
+                                                    <ul class="list-unstyled childs_1">
+                                                        <li class="title"><a href="#">Extruding Spares</a>
+                                                            <div class="sub-menu">
+                                                                <ul class="list-unstyled childs_2">
+                                                                    <li><a href="product?product=7">Extrusion Screw</a></li>
+                                                                    <li><a href="product?product=8">Extrusion Screw Barrel</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-unstyled childs_1">
+                                                        <li class="title"><a href="#">Discharging Spares</a>
+                                                            <div class="sub-menu">
+                                                                <ul class="list-unstyled childs_2">
+                                                                    <li><a href="product?product=9">Extruder Die Plate</a></li>
+                                                                    <li><a href="product?product=10">Extruder Cutting Knife</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="parent">
+                                                <a href="#">Hammer Mill Spares</a>
+                                                <div class="sub-menu megamenu column3">
+                                                    <ul class="list-unstyled childs_1">
+                                                        <li class="title"><a href="#">Hammermill Beater</a>
+                                                            <div class="sub-menu">
+                                                                <ul class="list-unstyled childs_2">
+                                                                    <li><a href="product?product=11">Tungsten Carbide Hammer mill Beater</a></li>
+                                                                    <li><a href="product?product=12">Special Steel Hammermill beater</a></li>
+                                                                    <li><a href="product?product=13">Non-standard Hammermill Beater</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-unstyled childs_1">
+                                                        <li class="title"><a href="#">Hammer Mill Screen</a>
+                                                            <div class="sub-menu">
+                                                                <ul class="list-unstyled childs_2">
+                                                                    <li><a href="product?product=14">Hammermill Screen Sheet</a></li>
+                                                                    <li><a href="product?product=15">Non-standard Hammermill Screen Sheet</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="parent">
+                                                <a href="#">Pulverizer Spares</a>
+                                                <div class="sub-menu megamenu column3">
+                                                    <ul class="list-unstyled childs_1">
+                                                        <li class="title"><a href="#">Pulverizer Beater</a>
+                                                            <div class="sub-menu">
+                                                                <ul class="list-unstyled childs_2">
+                                                                    <li><a href="product?product=16">Beater for Atomizer</a></li>
+                                                                    <li><a href="product?product=17">Pulverizer Beater Hammer</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-unstyled childs_1">
+                                                        <li class="title"><a href="#">Pulverizer Teeth Liner</a>
+                                                            <div class="sub-menu">
+                                                                <ul class="list-unstyled childs_2">
+                                                                    <li><a href="product?product=18">Split Pulverizer Teeth Liner</a></li>
+                                                                    <li><a href="product?product=19">One-piece Pulverizer Teeth Liner</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="parent">
+                                                <a href="#">Conveying Equipment</a>
+                                                <div class="sub-menu megamenu column3">
+                                                    <ul class="list-unstyled childs_1">
+                                                        <li class="title"><a href="#">Bucket Elevator Spares</a>
+                                                            <div class="sub-menu">
+                                                                <ul class="list-unstyled childs_2">
+                                                                    <li><a href="product?product=20">Plastic Elevator Bucket</a></li>
+                                                                    <li><a href="product?product=21">Steel Elevator Bucket</a></li>
+                                                                    <li><a href="product?product=22">PVC Integrated Belt</a></li>
+                                                                    <li><a href="product?product=23">Rubber Elevator Belt</a></li>
+                                                                    <li><a href="product?product=24">Flame Retardant Elevator Belt</a></li>
+                                                                    <li><a href="product?product=25">Rubber Slide Lagging</a></li>
+                                                                    <li><a href="product?product=26">Elevator Bolt</a></li>
+                                                                    <li><a href="product?product=27">Bucket Elevator Washer</a></li>
+                                                                    <li><a href="product?product=28">Elevator Nut</a></li>
+                                                                    <li><a href="product?product=29">Elevator Belt Splice</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-unstyled childs_1">
+                                                        <li class="title"><a href="#">Belt Conveyor Spares</a>
+                                                            <div class="sub-menu">
+                                                                <ul class="list-unstyled childs_2">
+                                                                    <li><a href="product?product=30">High Temperature Resistant Conveyor Belt</a></li>
+                                                                    <li><a href="product?product=31">Cotton Conveyor Belt</a></li>
+                                                                    <li><a href="product?product=32">Polyester Conveyor Belt</a></li>
+                                                                    <li><a href="product?product=33">Nylon Conveyor Belt</a></li>
+                                                                    <li><a href="product?product=34">Acid and Alkali Resistant Conveyor Belt</a></li>
+                                                                    <li><a href="product?product=35">Cold Resistant Conveyor Belt</a></li>
+                                                                    <li><a href="product?product=36">Patterned Conveyor Belt</a></li>
+                                                                    <li><a href="product?product=37">Loop Conveyor Belt</a></li>
+                                                                    <li><a href="product?product=38">Plastic Conveyor Roller</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-unstyled childs_1">
+                                                        <li class="title"><a href="#">Drag Conveyor Spares</a>
+                                                            <div class="sub-menu">
+                                                                <ul class="list-unstyled childs_2">
+                                                                    <li><a href="product?product=39">Plastic Drag Flight</a></li>
+                                                                    <li><a href="product?product=40">Metric Roller Chain</a></li>
+                                                                    <li><a href="product?product=41">Imperial Roller Chain</a></li>
+                                                                    <li><a href="product?product=42">Round Steel Chain</a></li>
+                                                                    <li><a href="product?product=43">Drop Forged Chain</a></li>
+                                                                    <li><a href="product?product=44">Froged Chain Sprocket</a></li>
+                                                                    <li><a href="product?product=45">Roller Chain Sprocket</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="list-unstyled childs_1">
+                                                        <li class="title"><a href="#">Screw Conveyor Spares</a>
+                                                            <div class="sub-menu">
+                                                                <ul class="list-unstyled childs_2">
+                                                                    <li><a href="product?product=46">Continuous Cold Rolled Screw Flight</a></li>
+                                                                    <li><a href="product?product=50">Equal Thickness Sectional Screw Flight</a></li>
+                                                                    <li><a href="product?product=51">Equal Thickness Continuous Screw Flight</a></li>
+                                                                    <li><a href="product?product=52">Enhanced Screw Flight</a></li>
+                                                                    <li><a href="product?product=53">Conveyor Auger</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            
                                         </ul>
                                     </div>
                                     <!--site-navigation -->

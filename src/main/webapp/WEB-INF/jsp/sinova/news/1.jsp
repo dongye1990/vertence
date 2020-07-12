@@ -11,30 +11,9 @@
 	<!--page start-->
 	<div class="page">
 		<%@include file="../head.jsp"%>
-        <!-- page-title -->
-        <div class="ttm-page-title-row">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="page-title-heading">
-                                <h1 class="title">News Single View</h1>
-                            </div>
-                            <div class="breadcrumb-wrapper">
-                                <span class="mr-1"><i class="ti ti-home"></i></span>
-                                <a title="Homepage" href="index.html">Home</a>
-                                <span class="ttm-bread-sep">&nbsp;/&nbsp;</span>
-                                <span class="ttm-textcolor-skincolor">News Single View</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>  
-            </div>                    
-        </div><!-- page-title end-->
 
     <!--site-main start-->
     <div class="site-main">
-
         <!-- sidebar -->
         <section class="sidebar ttm-sidebar-right clearfix">
             <div class="container">

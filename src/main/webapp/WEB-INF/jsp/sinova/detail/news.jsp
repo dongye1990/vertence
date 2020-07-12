@@ -41,74 +41,39 @@
                 <!-- row -->
                 <div class="row">
                     <div class="col-lg-12 content-area">
-                        <!-- post -->
-                        <article class="post ttm-blog-classic clearfix">
-                             <!-- post-featured-wrapper -->
-                            <div class="ttm-post-featured-wrapper ttm-featured-wrapper">
-                                <div class="ttm-post-featured">
-                                    <img class="img-fluid" src="images/blog/blog-one-1200x720.jpg" alt="">
-                                </div>
-                                <div class="ttm-box-post-icon">
-                                    <i class="ti ti-gallery"></i>
-                                </div>
-                            </div><!-- post-featured-wrapper end -->
-                            <!-- ttm-blog-classic-content -->
-                            <div class="ttm-blog-classic-content">
-                                <div class="ttm-post-entry-header">
-                                    <div class="post-meta">
-                                        <span class="ttm-meta-line byline"><i class="fa fa-user"></i>Admin</span>
-                                        <span class="ttm-meta-line tag-link"><i class="fa fa-tag"></i>Child Education</span>
-                                    </div>
-                                    <header class="entry-header">
-                                        <h2 class="entry-title"><a href="news?id=1">Danger of Having High Water Pressure</a></h2>
-                                    </header>
-                                </div>
-                                <div class="entry-content">
-                                    <div class="ttm-box-desc-text">
-                                        <p>Mauris id enim id purus ornare tincidunt. Aenean vel consequat risus. Proin viverra nisi at nisl imperdiet auctor. Donec ornare, est sed tincidunt placerat, sem mi suscipit mi, at varius enim sem at sem. Fusce tempus ex diet auctor. Donec ornare, est sed tincidunt placerat, sem mi suscipit mi, at varius e nibh, eget vulputate ligula ornare eget. Nunc facilisis erat at ligula blandit tempor. maecenasdiet auctor. Donec ornare, est.</p>
-                                    </div>
-                                    <div class="ttm-blogbox-desc-footer">
-                                        <div class="ttm-blogbox-footer-readmore">
-                                            <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-icon-btn-right ttm-btn-color-black" href="news?id=1" title="">Read More <i class="ti ti-angle-double-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- ttm-blog-classic-content end -->
-                        </article><!-- post end -->
-                        <!-- post -->
-                        <article class="post ttm-blog-classic clearfix">
-                             <!-- post-featured-wrapper -->
-                            <div class="ttm-post-featured-wrapper ttm-featured-wrapper">
-                                <div class="ttm-post-featured">
-                                    <img class="img-fluid" src="images/blog/blog-two-1200x720.jpg" alt="">
-                                </div>
-                                <div class="ttm-box-post-icon">
-                                    <i class="ti ti-gallery"></i>
-                                </div>
-                            </div><!-- post-featured-wrapper end -->
-                            <!-- ttm-blog-classic-content -->
-                            <div class="ttm-blog-classic-content">
-                                <div class="ttm-post-entry-header">
-                                    <div class="post-meta">
-                                        <span class="ttm-meta-line byline"><i class="fa fa-user"></i>Admin</span>
-                                        <span class="ttm-meta-line tag-link"><i class="fa fa-tag"></i>Child Education</span>
-                                    </div>
-                                    <header class="entry-header">
-                                        <h2 class="entry-title"><a href="news?id=1">The Most Common Painting Mistakes</a></h2>
-                                    </header>
-                                </div>
-                                <div class="entry-content">
-                                    <div class="ttm-box-desc-text">
-                                        <p>Mauris id enim id purus ornare tincidunt. Aenean vel consequat risus. Proin viverra nisi at nisl imperdiet auctor. Donec ornare, est sed tincidunt placerat, sem mi suscipit mi, at varius enim sem at sem. Fusce tempus ex diet auctor. Donec ornare, est sed tincidunt placerat, sem mi suscipit mi, at varius e nibh, eget vulputate ligula ornare eget. Nunc facilisis erat at ligula blandit tempor. maecenasdiet auctor. Donec ornare, est.</p>
-                                    </div>
-                                    <div class="ttm-blogbox-desc-footer">
-                                        <div class="ttm-blogbox-footer-readmore">
-                                            <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-icon-btn-right ttm-btn-color-black" href="news?id=1" title="">Read More <i class="ti ti-angle-double-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- ttm-blog-classic-content end -->
-                        </article><!-- post end -->
+                   	 	<c:forEach items="${newsList }" var="d">
+	                        <!-- post -->
+	                        <article class="post ttm-blog-classic clearfix">
+	                             <!-- post-featured-wrapper -->
+	                            <div class="ttm-post-featured-wrapper ttm-featured-wrapper">
+	                                <div class="ttm-post-featured">
+	                                    <img class="img-fluid" src="images/blog/blog-one-1200x720.jpg" alt="">
+	                                </div>
+	                                <div class="ttm-box-post-icon">
+	                                    <i class="ti ti-gallery"></i>
+	                                </div>
+	                            </div><!-- post-featured-wrapper end -->
+	                            <!-- ttm-blog-classic-content -->
+	                            <div class="ttm-blog-classic-content">
+	                                <div class="ttm-post-entry-header">
+	                                    <div class="post-meta">
+	                                        <span class="ttm-meta-line byline"><i class="fa fa-user"></i>Admin</span>
+	                                        <span class="ttm-meta-line tag-link"><i class="fa fa-tag"></i><fmt:formatDate value="${d.createTime }" pattern="yyyy-MM-dd HH:mm:ss"/></span>
+	                                    </div>
+	                                    <header class="entry-header">
+	                                        <h2 class="entry-title"><a href="news?id=${d.id }">${d.title }</a></h2>
+	                                    </header>
+	                                </div>
+	                                <div class="entry-content">
+	                                    <div class="ttm-blogbox-desc-footer">
+	                                        <div class="ttm-blogbox-footer-readmore">
+	                                            <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-icon-btn-right ttm-btn-color-black" href="news?id=${d.id }" title="">Read <i class="ti ti-angle-double-right"></i></a>
+	                                        </div>
+	                                    </div>
+	                                </div>
+	                            </div><!-- ttm-blog-classic-content end -->
+	                        </article><!-- post end -->
+						</c:forEach>
                     </div>
                 </div><!-- row end -->
             </div>

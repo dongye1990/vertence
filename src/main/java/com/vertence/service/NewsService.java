@@ -31,7 +31,7 @@ public class NewsService {
 	
 	public List<News> listNews(){
 		String sql="select * from news  where status!=0";
-		sql+=" order by createTime desc,status desc limit 4";
+		sql+=" order by createTime desc,status desc limit 3";
 		List<News> newsList= jdbcTemplate.query(sql, new Object[]{},new BeanPropertyRowMapper<News>(News.class));
 		return newsList;
 	}

@@ -44,7 +44,7 @@
 					 </a>
 					<ul class="submenu" style="display: block;">
 						<li>
-							<a href="${ctx}/backend/user/list"> <i class="icon-double-angle-right"></i>新闻列表</a>
+							<a href="${ctx}/backend/user/list"> <i class="icon-double-angle-right"></i>用户列表</a>
 						</li>
 					</ul>
 				</li>
@@ -71,6 +71,16 @@
 						</li>
 						<li>
 							<a href="${ctx}/backend/news/toAdd?index=0"> <i class="icon-double-angle-right"></i>新闻新增</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					 <a href="#" class="dropdown-toggle"> 
+					     <i class="icon-list"></i><span class="menu-text">产品</span><b class="arrow icon-angle-down"></b>
+					 </a>
+					<ul class="submenu" style="display: block;">
+						<li>
+							<a href="${ctx}/backend/product/list"> <i class="icon-double-angle-right"></i>产品列表</a>
 						</li>
 					</ul>
 				</li>

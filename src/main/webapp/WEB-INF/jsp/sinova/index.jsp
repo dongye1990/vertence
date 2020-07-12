@@ -300,33 +300,31 @@
 					<div class="col-lg-12">
 						<div class="ttm-tabs tabs-for-products" data-effect="fadeIn">
 							<ul class="tabs clearfix">
-								<li class="tab active"><a href="#">Pellet Mill</a></li>
-								<li class="tab"><a href="#">Extruder</a></li>
-								<li class="tab"><a href="#">Hammer Mill</a></li>
-								<li class="tab"><a href="#">Pulverizer</a></li>
-								<li class="tab"><a href="#">Bucket Elevator</a></li>
-								<li class="tab"><a href="#">Conveyor</a></li>
-								<li class="tab"><a href="#">Supplements</a></li>
+								<li class="tab active"><a href="#">Pellet Mill Spares</a></li>
+								<li class="tab"><a href="#">Extruder Spare Parts</a></li>
+								<li class="tab"><a href="#">Hammer Mill Spares</a></li>
+								<li class="tab"><a href="#">Pulverizer Spares</a></li>
+								<li class="tab"><a href="#">Conveying Equipment Spares</a></li>
 							</ul>
 							<div class="content-tab">
 								<!-- content-inner -->
 								<div class="content-inner">
 									<div class="products row">
-										<div class="products-hd w-100">Dids</div>
+										<div class="products-hd w-100">Pellet Die</div>
 										<!-- product -->
 										<div class="product col-md-3 col-sm-6 col-xs-12">
 											<div class="product-box">
 												<!-- product-box-inner -->
 												<div class="product-box-inner">
 													<div class="product-image-box">
-														<img src="${ctx}/static/fixfellow/images/pdt/01.png"
+														<img src="${ctx}/static/fixfellow/images/pdt/1.png"
 															alt="">
 													</div>
 												</div>
 												<!-- product-box-inner end -->
 												<div class="product-content-box">
-													<a class="product-title" href="product?product=dies">
-														<h2>Dies</h2>
+													<a class="product-title" href="product?product=1">
+														<h2>Pellet Mill<br/>Flat Die</h2>
 													</a>
 													<div class="star-ratings">
 														<ul class="rating">
@@ -347,15 +345,14 @@
 												<!-- product-box-inner -->
 												<div class="product-box-inner">
 													<div class="product-image-box">
-														<img src="${ctx}/static/fixfellow/images/pdt/02.png"
+														<img src="${ctx}/static/fixfellow/images/pdt/2.png"
 															alt="">
 													</div>
 												</div>
 												<!-- product-box-inner end -->
 												<div class="product-content-box">
-													<a class="product-title"
-														href="product?product=rollerShells">
-														<h2>Roller Shells</h2>
+													<a class="product-title" href="product?product=2">
+														<h2>Pellet Mill<br/>Ring Die</h2>
 													</a>
 													<div class="star-ratings">
 														<ul class="rating">
@@ -372,21 +369,21 @@
 										<!-- product end -->
 									</div>
 									<div class="products row">
-										<div class="products-hd w-100">Dids</div>
+										<div class="products-hd w-100">Roller Shell</div>
 										<!-- product -->
 										<div class="product col-md-3 col-sm-6 col-xs-12">
 											<div class="product-box">
 												<!-- product-box-inner -->
 												<div class="product-box-inner">
 													<div class="product-image-box">
-														<img src="${ctx}/static/fixfellow/images/pdt/01.png"
+														<img src="${ctx}/static/fixfellow/images/pdt/3.png"
 															alt="">
 													</div>
 												</div>
 												<!-- product-box-inner end -->
 												<div class="product-content-box">
-													<a class="product-title" href="product?product=dies">
-														<h2>Dies</h2>
+													<a class="product-title" href="product?product=3">
+														<h2>Open end Grooved<br/>Roller Shell</h2>
 													</a>
 													<div class="star-ratings">
 														<ul class="rating">
@@ -407,49 +404,15 @@
 												<!-- product-box-inner -->
 												<div class="product-box-inner">
 													<div class="product-image-box">
-														<img src="${ctx}/static/fixfellow/images/pdt/02.png"
+														<img src="${ctx}/static/fixfellow/images/pdt/4.png"
 															alt="">
 													</div>
 												</div>
 												<!-- product-box-inner end -->
 												<div class="product-content-box">
 													<a class="product-title"
-														href="product?product=rollerShells">
-														<h2>Roller Shells</h2>
-													</a>
-													<div class="star-ratings">
-														<ul class="rating">
-															<li><i class="fa fa-star"></i></li>
-															<li><i class="fa fa-star"></i></li>
-															<li><i class="fa fa-star"></i></li>
-															<li><i class="fa fa-star"></i></li>
-															<li><i class="fa fa-star-o"></i></li>
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-										<!-- product end -->
-									</div>
-								</div>
-								<!-- content-inner -->
-								<div class="content-inner">
-								<div class="products-hd">Dids</div>
-									<div class="products row">
-										<!-- product -->
-										<div class="product col-md-3 col-sm-6 col-xs-12">
-											<div class="product-box">
-												<!-- product-box-inner -->
-												<div class="product-box-inner">
-													<div class="product-image-box">
-														<img src="${ctx}/static/fixfellow/images/pdt/03.png"
-															alt="">
-													</div>
-												</div>
-												<!-- product-box-inner end -->
-												<div class="product-content-box">
-													<a class="product-title" href="product?product=screw">
-														<h2>Screw</h2>
+														href="product?product=4">
+														<h2>Closed end Grooved<br/>Roller Shell</h2>
 													</a>
 													<div class="star-ratings">
 														<ul class="rating">
@@ -470,15 +433,15 @@
 												<!-- product-box-inner -->
 												<div class="product-box-inner">
 													<div class="product-image-box">
-														<img src="${ctx}/static/fixfellow/images/pdt/04.png"
+														<img src="${ctx}/static/fixfellow/images/pdt/5.png"
 															alt="">
 													</div>
 												</div>
 												<!-- product-box-inner end -->
 												<div class="product-content-box">
 													<a class="product-title"
-														href="product?product=dischargingDiePlate">
-														<h2>Discharging Die Plate</h2>
+														href="product?product=5">
+														<h2>Deflective Grooved<br/>Roller Shell</h2>
 													</a>
 													<div class="star-ratings">
 														<ul class="rating">
@@ -499,15 +462,15 @@
 												<!-- product-box-inner -->
 												<div class="product-box-inner">
 													<div class="product-image-box">
-														<img src="${ctx}/static/fixfellow/images/pdt/05.png"
+														<img src="${ctx}/static/fixfellow/images/pdt/6.png"
 															alt="">
 													</div>
 												</div>
 												<!-- product-box-inner end -->
 												<div class="product-content-box">
 													<a class="product-title"
-														href="product?product=extrudingChamber">
-														<h2>Extruding Chamber</h2>
+														href="product?product=6">
+														<h2>Dimpled Roller Shell</h2>
 													</a>
 													<div class="star-ratings">
 														<ul class="rating">
@@ -524,24 +487,25 @@
 										<!-- product end -->
 									</div>
 								</div>
-								<!-- content-inner end-->
+								<!-- content-inner--end -->
 								<!-- content-inner -->
 								<div class="content-inner">
 									<div class="products row">
+										<div class="products-hd w-100">Extruding Spares</div>
 										<!-- product -->
 										<div class="product col-md-3 col-sm-6 col-xs-12">
 											<div class="product-box">
 												<!-- product-box-inner -->
 												<div class="product-box-inner">
 													<div class="product-image-box">
-														<img src="${ctx}/static/fixfellow/images/pdt/06.png"
+														<img src="${ctx}/static/fixfellow/images/pdt/7.png"
 															alt="">
 													</div>
 												</div>
 												<!-- product-box-inner end -->
 												<div class="product-content-box">
-													<a class="product-title" href="product?product=hammer">
-														<h2>Hammer(Tungsten Carbide Enhanced)</h2>
+													<a class="product-title" href="product?product=7">
+														<h2>Extrusion Screw</h2>
 													</a>
 													<div class="star-ratings">
 														<ul class="rating">
@@ -562,43 +526,15 @@
 												<!-- product-box-inner -->
 												<div class="product-box-inner">
 													<div class="product-image-box">
-														<img src="${ctx}/static/fixfellow/images/pdt/07.png"
+														<img src="${ctx}/static/fixfellow/images/pdt/8.png"
 															alt="">
 													</div>
 												</div>
 												<!-- product-box-inner end -->
 												<div class="product-content-box">
 													<a class="product-title"
-														href="product?product=highIntensityHammer">
-														<h2>High Intensity Hammer</h2>
-													</a>
-													<div class="star-ratings">
-														<ul class="rating">
-															<li><i class="fa fa-star"></i></li>
-															<li><i class="fa fa-star"></i></li>
-															<li><i class="fa fa-star"></i></li>
-															<li><i class="fa fa-star"></i></li>
-															<li><i class="fa fa-star-o"></i></li>
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-										<!-- product end -->
-										<!-- product -->
-										<div class="product col-md-3 col-sm-6 col-xs-12">
-											<div class="product-box">
-												<!-- product-box-inner -->
-												<div class="product-box-inner">
-													<div class="product-image-box">
-														<img src="${ctx}/static/fixfellow/images/pdt/08.png"
-															alt="">
-													</div>
-												</div>
-												<!-- product-box-inner end -->
-												<div class="product-content-box">
-													<a class="product-title" href="product?product=screenSheet">
-														<h2>Screen Sheet</h2>
+														href="product?product=8">
+														<h2>Extrusion Screw Barrel</h2>
 													</a>
 													<div class="star-ratings">
 														<ul class="rating">
@@ -614,25 +550,22 @@
 										</div>
 										<!-- product end -->
 									</div>
-								</div>
-								<!-- content-inner end-->
-								<!-- content-inner -->
-								<div class="content-inner">
 									<div class="products row">
+										<div class="products-hd w-100">Discharging Spares</div>
 										<!-- product -->
 										<div class="product col-md-3 col-sm-6 col-xs-12">
 											<div class="product-box">
 												<!-- product-box-inner -->
 												<div class="product-box-inner">
 													<div class="product-image-box">
-														<img src="${ctx}/static/fixfellow/images/pdt/09.png"
+														<img src="${ctx}/static/fixfellow/images/pdt/9.png"
 															alt="">
 													</div>
 												</div>
 												<!-- product-box-inner end -->
 												<div class="product-content-box">
-													<a class="product-title" href="product?product=beater">
-														<h2>Beater</h2>
+													<a class="product-title" href="product?product=9">
+														<h2>Extruder Die Plate</h2>
 													</a>
 													<div class="star-ratings">
 														<ul class="rating">
@@ -660,36 +593,8 @@
 												<!-- product-box-inner end -->
 												<div class="product-content-box">
 													<a class="product-title"
-														href="product?product=atomizerBeater">
-														<h2>Atomizer Beater</h2>
-													</a>
-													<div class="star-ratings">
-														<ul class="rating">
-															<li><i class="fa fa-star"></i></li>
-															<li><i class="fa fa-star"></i></li>
-															<li><i class="fa fa-star"></i></li>
-															<li><i class="fa fa-star"></i></li>
-															<li><i class="fa fa-star-o"></i></li>
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-										<!-- product end -->
-										<!-- product -->
-										<div class="product col-md-3 col-sm-6 col-xs-12">
-											<div class="product-box">
-												<!-- product-box-inner -->
-												<div class="product-box-inner">
-													<div class="product-image-box">
-														<img src="${ctx}/static/fixfellow/images/pdt/11.png"
-															alt="">
-													</div>
-												</div>
-												<!-- product-box-inner end -->
-												<div class="product-content-box">
-													<a class="product-title" href="product?product=toothRing">
-														<h2>Tooth Ring</h2>
+														href="product?product=10">
+														<h2>Extruder Cutting Knife</h2>
 													</a>
 													<div class="star-ratings">
 														<ul class="rating">
@@ -706,24 +611,25 @@
 										<!-- product end -->
 									</div>
 								</div>
-								<!-- content-inner end-->
+								<!-- content-inner--end -->
 								<!-- content-inner -->
 								<div class="content-inner">
 									<div class="products row">
+										<div class="products-hd w-100">Hammermill Beater</div>
 										<!-- product -->
 										<div class="product col-md-3 col-sm-6 col-xs-12">
 											<div class="product-box">
 												<!-- product-box-inner -->
 												<div class="product-box-inner">
 													<div class="product-image-box">
-														<img src="${ctx}/static/fixfellow/images/pdt/13.png"
+														<img src="${ctx}/static/fixfellow/images/pdt/11.png"
 															alt="">
 													</div>
 												</div>
 												<!-- product-box-inner end -->
 												<div class="product-content-box">
-													<a class="product-title" href="product?product=bucket">
-														<h2>Bucket</h2>
+													<a class="product-title" href="product?product=11">
+														<h2>Tungsten Carbide Hammer<br/>mill Beater</h2>
 													</a>
 													<div class="star-ratings">
 														<ul class="rating">
@@ -744,14 +650,319 @@
 												<!-- product-box-inner -->
 												<div class="product-box-inner">
 													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/12.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title"
+														href="product?product=12">
+														<h2>Special Steel<br/>Hammermill beater</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/13.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title"
+														href="product?product=13">
+														<h2>Non-standard Hammermill<br/>Beater</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+									</div>
+									<div class="products row">
+										<div class="products-hd w-100">Hammer Mill Screen</div>
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/14.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title" href="product?product=14">
+														<h2>Hammermill Screen<br/>Sheet</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/15.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title"
+														href="product?product=15">
+														<h2>Non-standard Hammermill<br/> Screen Sheet</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+									</div>
+								</div>
+								<!-- content-inner--end -->
+								<!-- content-inner -->
+								<div class="content-inner">
+									<div class="products row">
+										<div class="products-hd w-100">Pulverizer Beater</div>
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/16.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title" href="product?product=16">
+														<h2>Beater for Atomizer</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/17.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title"
+														href="product?product=17">
+														<h2>Pulverizer Beater<br/>Hammer</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+									</div>
+									<div class="products row">
+										<div class="products-hd w-100">Pulverizer Teeth Liner</div>
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/18.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title" href="product?product=18">
+														<h2>Split Pulverizer<br/>Teeth Liner</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/19.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title"
+														href="product?product=19">
+														<h2>One-piece Pulverizer<br/>Teeth Liner</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+									</div>
+								</div>
+								<!-- content-inner--end -->
+								<!-- content-inner -->
+								<div class="content-inner">
+									<div class="products row">
+										<div class="products-hd w-100">Bucket Elevator Spares</div>
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
 														<img src="${ctx}/static/fixfellow/images/pdt/20.png"
 															alt="">
 													</div>
 												</div>
 												<!-- product-box-inner end -->
 												<div class="product-content-box">
-													<a class="product-title" href="product?product=belt">
-														<h2>Belt</h2>
+													<a class="product-title" href="product?product=20">
+														<h2>Plastic Elevator<br/>Bucket</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/21.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title" href="product?product=21">
+														<h2>Steel Elevator<br/>Bucket</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/22.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title" href="product?product=22">
+														<h2>PVC Integrated<br/>Belt</h2>
 													</a>
 													<div class="star-ratings">
 														<ul class="rating">
@@ -778,8 +989,8 @@
 												</div>
 												<!-- product-box-inner end -->
 												<div class="product-content-box">
-													<a class="product-title" href="#">
-														<h2>Bolt</h2>
+													<a class="product-title" href="product?product=23">
+														<h2>Rubber Elevator<br/>Belt</h2>
 													</a>
 													<div class="star-ratings">
 														<ul class="rating">
@@ -794,12 +1005,6 @@
 											</div>
 										</div>
 										<!-- product end -->
-									</div>
-								</div>
-								<!-- content-inner end-->
-								<!-- content-inner -->
-								<div class="content-inner">
-									<div class="products row">
 										<!-- product -->
 										<div class="product col-md-3 col-sm-6 col-xs-12">
 											<div class="product-box">
@@ -812,8 +1017,8 @@
 												</div>
 												<!-- product-box-inner end -->
 												<div class="product-content-box">
-													<a class="product-title" href="product?product=flight">
-														<h2>Flight</h2>
+													<a class="product-title" href="product?product=24">
+														<h2>Flame Retardant<br/>Elevator Belt</h2>
 													</a>
 													<div class="star-ratings">
 														<ul class="rating">
@@ -840,8 +1045,8 @@
 												</div>
 												<!-- product-box-inner end -->
 												<div class="product-content-box">
-													<a class="product-title" href="#">
-														<h2>Chain</h2>
+													<a class="product-title" href="product?product=25">
+														<h2>Rubber Slide<br/>Lagging</h2>
 													</a>
 													<div class="star-ratings">
 														<ul class="rating">
@@ -868,8 +1073,8 @@
 												</div>
 												<!-- product-box-inner end -->
 												<div class="product-content-box">
-													<a class="product-title" href="#">
-														<h2>Imperial Roller Chain</h2>
+													<a class="product-title" href="product?product=26">
+														<h2>Elevator Bolt</h2>
 													</a>
 													<div class="star-ratings">
 														<ul class="rating">
@@ -896,8 +1101,8 @@
 												</div>
 												<!-- product-box-inner end -->
 												<div class="product-content-box">
-													<a class="product-title" href="#">
-														<h2>Integral Attachment Roller Chain F Series</h2>
+													<a class="product-title" href="product?product=27">
+														<h2>Bucket Elevator<br/>Washer</h2>
 													</a>
 													<div class="star-ratings">
 														<ul class="rating">
@@ -924,8 +1129,37 @@
 												</div>
 												<!-- product-box-inner end -->
 												<div class="product-content-box">
-													<a class="product-title" href="product?product=drag">
-														<h2>Drag</h2>
+													<a class="product-title" href="product?product=28">
+														<h2>Elevator Nut</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/29.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title"
+														href="product?product=29">
+														<h2>Elevator Belt<br/>Splice</h2>
 													</a>
 													<div class="star-ratings">
 														<ul class="rating">
@@ -941,11 +1175,8 @@
 										</div>
 										<!-- product end -->
 									</div>
-								</div>
-								<!-- content-inner end-->
-								<!-- content-inner -->
-								<div class="content-inner">
 									<div class="products row">
+										<div class="products-hd w-100">Dids</div>
 										<!-- product -->
 										<div class="product col-md-3 col-sm-6 col-xs-12">
 											<div class="product-box">
@@ -958,8 +1189,8 @@
 												</div>
 												<!-- product-box-inner end -->
 												<div class="product-content-box">
-													<a class="product-title" href="#">
-														<h2>Gearbox</h2>
+													<a class="product-title" href="product?product=30">
+														<h2>High Temperature<br/>Resistant Conveyor Belt</h2>
 													</a>
 													<div class="star-ratings">
 														<ul class="rating">
@@ -986,8 +1217,8 @@
 												</div>
 												<!-- product-box-inner end -->
 												<div class="product-content-box">
-													<a class="product-title" href="#">
-														<h2>Level Indicator Rotary Paddle Level Switch</h2>
+													<a class="product-title" href="product?product=31">
+														<h2>Cotton Conveyor<br/>Belt</h2>
 													</a>
 													<div class="star-ratings">
 														<ul class="rating">
@@ -1014,8 +1245,518 @@
 												</div>
 												<!-- product-box-inner end -->
 												<div class="product-content-box">
-													<a class="product-title" href="#">
-														<h2>Photoelectric Level Switch</h2>
+													<a class="product-title" href="product?product=32">
+														<h2>Polyester Conveyor<br/>Belt</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/33.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title" href="product?product=33">
+														<h2>Nylon Conveyor<br/>Belt</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/24.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title" href="product?product=34">
+														<h2>Acid and Alkali<br/>Resistant Conveyor Belt</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/35.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title" href="product?product=35">
+														<h2>Cold Resistant<br/>Conveyor Belt</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/36.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title" href="product?product=36">
+														<h2>Patterned Conveyor<br/>Belt</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/37.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title" href="product?product=37">
+														<h2>Loop Conveyor<br/>Belt</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/38.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title" href="product?product=38">
+														<h2>Plastic Conveyor<br/>Roller</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+									</div>
+									<div class="products row">
+										<div class="products-hd w-100">Dids</div>
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/39.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title" href="product?product=39">
+														<h2>Plastic Drag<br/>Flight</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/40.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title" href="product?product=40">
+														<h2>Metric Roller<br/>Chain</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/41.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title" href="product?product=41">
+														<h2>Imperial Roller<br/>Chain</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/42.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title" href="product?product=42">
+														<h2>Round Steel<br/>Chain</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/43.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title" href="product?product=43">
+														<h2>Drop Forged<br/>Chain</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/44.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title" href="product?product=44">
+														<h2>Froged Chain<br/>Sprocket</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/45.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title" href="product?product=45">
+														<h2>Roller Chain<br/>Sprocket</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+									</div>
+									<div class="products row">
+										<div class="products-hd w-100">Dids</div>
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/46.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title" href="product?product=46">
+														<h2>Continuous Cold<br/>Rolled Screw Flight</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/50.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title" href="product?product=50">
+														<h2>Equal Thickness<br/>Sectional Screw Flight</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/51.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title" href="product?product=51">
+														<h2>Equal Thickness<br/>Continuous Screw Flight</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/52.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title" href="product?product=52">
+														<h2>Enhanced Screw<br/>Flight</h2>
+													</a>
+													<div class="star-ratings">
+														<ul class="rating">
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star"></i></li>
+															<li><i class="fa fa-star-o"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- product end -->
+										<!-- product -->
+										<div class="product col-md-3 col-sm-6 col-xs-12">
+											<div class="product-box">
+												<!-- product-box-inner -->
+												<div class="product-box-inner">
+													<div class="product-image-box">
+														<img src="${ctx}/static/fixfellow/images/pdt/53.png"
+															alt="">
+													</div>
+												</div>
+												<!-- product-box-inner end -->
+												<div class="product-content-box">
+													<a class="product-title" href="product?product=53">
+														<h2>Conveyor Auger</h2>
 													</a>
 													<div class="star-ratings">
 														<ul class="rating">
@@ -1032,7 +1773,7 @@
 										<!-- product end -->
 									</div>
 								</div>
-								<!-- content-inner end-->
+								<!-- content-inner--end -->
 							</div>
 						</div>
 					</div>
@@ -1040,7 +1781,58 @@
 			</div>
 			</section>
 			<!-- product-section end-->
+			<!-- blog-section -->
+            <section class="blog-title-section bg-img3 clearfix">
+                <div class="container">
+                    <!-- row -->
+                    <div class="row">
+                        <div class="col-md-7 ml-auto mr-auto">
+                            <!-- section-title -->
+                            <div class="section-title title-style-center_text style2">
+                                <div class="title-header">
+                                    <h2 class="title">Our Latest News</h2>
+                                </div>
+                            </div><!-- section-title end -->
+                        </div>
+                    </div><!-- row end -->
+                </div>
+            </section>
 
+            <section class="blog-section clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <!-- slick_slider -->
+                            <div class="slick_slider" >
+                               <c:forEach items="${newsList }" var="d">
+	                                <!-- featured-imagebox-post -->
+	                                <div class="featured-imagebox featured-imagebox-post ttm-box-view-top-image">
+	                                    <div class="ttm-post-featured-outer">
+	                                        <div class="ttm-post-thumbnail featured-thumbnail">
+	                                            <div class="ttm-box-post-date">
+	                                                <span class="ttm-entry-date">
+	                                                    <time class="entry-date" datetime="2019-07-28T07:07:55+00:00">28<span class="entry-month">Jul</span></time>
+	                                                </span>
+	                                            </div>
+	                                        </div>
+	                                    </div>
+	                                    <div class="featured-content featured-content-post">
+	                                        <div class="post-meta">
+	                                            <span class="ttm-meta-line byline"><i class="fa fa-user"></i>Admin</span>
+	                                            <span class="ttm-meta-line tag-link"><i class="fa fa-tag"></i><fmt:formatDate value="${d.createTime }" pattern="yyyy-MM-dd HH:mm:ss"/></span>
+	                                        </div>
+	                                        <div class="post-title featured-title">
+	                                            <h5><a href="news?id=${d.id }">${d.title }</a></h5>
+	                                        </div>
+	                                    </div>
+	                                </div><!-- featured-imagebox-post end -->
+                                </c:forEach>
+                            </div><!-- slick_slider end -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- multi-section end -->
 		</div>
 		<!--site-main end-->
 
